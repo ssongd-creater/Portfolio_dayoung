@@ -7,13 +7,14 @@ img {display: block;}
 input,button,textarea {outline: 0;}
 
 /* Main Layout Code */
-body {font-size: 14px;}
+body {font-size: 14px;overflow: hidden;}
 .clearfix:after {content: "";display: block;clear: both;}
 .center{width:100%;max-width:1280px;margin:auto;}
 
 
 /* 1st Page Style Code */
-.page_1{background:coral;width:100%;height:100%;}
-.page_2{background:cornflowerblue;width:100%;height:100%;}
-.page_3{background:cornsilk;width:100%;height:100%;}
-.page_4{background:crimson;width:100%;height:100%;}
+
+.wrap .pgnum_1{width:100%;height:100vh;}
+.wrap .pgnum_2{width:100%;height:100vh;}
+.wrap .pgnum_3{width:100%;height:100vh;}
+.wrap .pgnum_4{width:100%;height:100vh;}
