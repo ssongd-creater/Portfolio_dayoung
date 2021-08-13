@@ -5,9 +5,10 @@ a {text-decoration: none;color: #333;}
 ol,ul {list-style: none;}
 img {display: block;}
 input,button,textarea {outline: 0;}
+button{outline:0;border:1px solid;}
 
 /* Main Layout Code */
-body {font-size: 14px;overflow: hidden;background:url(/pofol/img/bgimg.jpg);}
+body {font-size: 14px;overflow: hidden;background:url(/pofol/img/bgimg.jpg);font-family: 'Atkinson Hyperlegible','Nanum Gothic''Roboto', sans-serif;}
 .clearfix:after {content: "";display: block;clear: both;}
 .center{width:100%;max-width:90%;margin:auto;background:#fff;height:100vh;;box-shadow: 0 0 10px #ccc;}
 .sub_center{width:100%;height:100%;max-width:90%;margin:auto;}
@@ -40,8 +41,56 @@ header .navigation .navi p{font-size:18px;}
       100%{border-right: 1px solid #fff;} 
     }
 
+/* 2nd Page Style Code */
 .pgnum_2{width:100%;height:auto;}
-.pgnum_2 .main2_contents{width:100%;height:100%; display:flex;align-items: center;justify-content: space-between;padding:0 40px;}
-.pgnum_2 .main2_contents .main_img{width:40%;height:auto;}
-.pgnum_2 .main2_contents .main_img img{width:100%;height:auto;background-size:cover;}
-.pgnum_2 .main2_contents .main2_txt{width:60%;height:auto;}
+.pgnum_2 .main2_contents{width:90%;height:100%; display:flex;align-items: center;margin:auto;}
+.pgnum_2 .main2_contents .main_img{width:35%;height:auto;margin:auto;}
+.pgnum_2 .main2_contents .main_img img{width:400px;height:400px;background-size:cover;border-radius:10px;margin:auto;}
+
+
+.pgnum_2 .main2_contents .container {position: relative;float: left;width: 65%;height: 100%;-webkit-perspective: 800px;-moz-perspective: 800px;-o-perspective: 800px;perspective: 800px;}
+.pgnum_2 .main2_content .container:first-child {margin-left: 0;}
+.pgnum_2 .main2_contents .container .card_wrap{width:100%;height:50%;margin:auto;position:absolute;transition: transform 0.4s;-webkit-transition: -webkit-transform 0.4s;-moz-transition: -moz-transform 0.4s;-o-transition: -o-transform 0.4s;-webkit-transform-style: preserve-3d; -moz-transform-style: preserve-3d;-o-transform-style: preserve-3d;transform-style: preserve-3d;_top:50%;_transform:translateY(-50%)}
+.pgnum_2 .main2_contents .container .card_wrap.flipped{-webkit-transform: rotateY( 180deg );-moz-transform: rotateY( 180deg );-o-transform: rotateY( 180deg );transform: rotateY( 180deg );}
+
+.pgnum_2 .container .card_wrap .main2_fronttxt,
+.pgnum_2 .main2_contents .main2_txt {display: block;height: 100%;width: 100%;text-align: center;font-size: 4em;position: absolute;-webkit-backface-visibility: hidden;-moz-backface-visibility: hidden;-o-backface-visibility: hidden;backface-visibility: hidden;box-shadow: 3px 5px 20px 2px rgba(0, 0, 0, 0.25);-webkit-transform: rotateY( 180deg );-moz-transform: rotateY( 180deg );-o-transform: rotateY( 180deg );transform: rotateY( 180deg );}
+/* .pgnum_2 .main2_contents .main2_txt{width: 100%;} */
+
+
+.pgnum_2 .main2_contents .main2_fronttxt h2{text-align: center; font-size:25px;}
+.pgnum_2 .main2_contents .detail_profile p{font-size:16px;display: flex;padding: 5px 0;}
+.pgnum_2 .main2_contents .detail_profile em{font-size:14px;font-style:normal;}
+.pgnum_2 .main2_contents .detail_profile span{width:100%;display:flex;justify-content: center;text-align:center;}
+.pgnum_2 .main2_contents .detail_profile span h5{font-size:25px;font-weight: normal;padding:20px 0;}
+
+
+/* Spin Card Back Style Code */
+/* .pgnum_2 .main2_contents .main2_txt{width:65%;height:auto;} */
+.pgnum_2 .main2_contents .main2_txt h2{text-align: center; font-size:25px;;}
+.pgnum_2 .main2_contents .main2_txt .skill_wrap{width:100%;height:50%;;display:flex;justify-content: space-around;font-size:16px;margin-top:45px;}
+
+
+/* 2nd Page Skill Common Style Code */
+.pgnum_2 .skill_wrap .left_skill,
+.pgnum_2 .skill_wrap .right_skill{width:50%;height:auto;display:flex;flex-direction: column;align-items: center;}
+.pgnum_2 .skill_wrap .left_skill>li,
+.pgnum_2 .skill_wrap .right_skill>li{width:calc(90% - 5px);}
+.pgnum_2 .main2_contents .skill_bar{width:calc(90% - 5px);height:30px;_background:#333;display:flex;justify-content: center;}
+.pgnum_2 .skill_wrap .left_skill .total_bar,
+.pgnum_2 .skill_wrap .right_skill .total_bar{width:100%;height:80%;display:flex;align-items: center;background:#eee;margin:auto;border-radius:15px;}
+.pgnum_2 .skill_wrap .left_skill .sub_bar,
+.pgnum_2 .skill_wrap .right_skill .sub_bar{width:80%;height:85%;border-radius:15px;}
+/* 2nd Page Skill Detail Style Code */
+.pgnum_2 .skill_wrap .left_skill .sub_bar.html{width:85%;background:#ae3c60;}
+.pgnum_2 .skill_wrap .left_skill .sub_bar.css{width:90%;background:#df473c;}
+.pgnum_2 .skill_wrap .left_skill .sub_bar.javascript{width:45%;background:#f3c33c;}
+.pgnum_2 .skill_wrap .left_skill .sub_bar.jquery{width:45%;background:#255e79;}
+
+.pgnum_2 .skill_wrap .right_skill .sub_bar.php{width:15%;background:#267778;}
+.pgnum_2 .skill_wrap .right_skill .sub_bar.photoshop{width:80%;background:#82b4bb;}
+.pgnum_2 .skill_wrap .right_skill .sub_bar.illustrator{width:70%;background:#7da1d4;}
+
+.pgnum_2 .main2_txt p{text-align:center;margin:20px 0;font-size:14px;color:#666;}
+.pgnum_2 .skill_btn{width:150px;height:40px;position:absolute;bottom:10%;left:50%;transform:translate(-50%,-50%);}
+.pgnum_2 .skill_btn button{width:100%; height:100%;color:#fff;background:cornflowerblue;border-radius:10px;}

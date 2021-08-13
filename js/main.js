@@ -15,6 +15,20 @@ $(document).ready(function () {
   });
   //$.fn.fullpage.setAllowScrolling(false);
 
+  //pgnum2 card spin effect
+
+  $(".card_wrap").click(function () {
+    $(this).toggleClass('flipped');
+  });
+
+
+
+  
+
+
+
+
+
 });
 
 //typing Effect js
