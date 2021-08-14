@@ -4,7 +4,7 @@ $(document).ready(function () {
     autoScrolling: true,
     scrollHorizontally: true,
     lockAnchors:false,
-    anchors: ['1st', '2nd', '3rd', '4rd'],
+    anchors: ['home','1st', '2nd', '3rd', '4rd'],
     //sectionColor:['#333333','#666666','#cccccc','#efefef'],
     navigation: true,
     navigationPosition: 'right',
@@ -15,19 +15,19 @@ $(document).ready(function () {
   });
   //$.fn.fullpage.setAllowScrolling(false);
 
+  //background Image effect
+  if ($("body").hasClass = "fp-viewing-home") {
+    $("header").css({ 'background': 'transparent' })
+    $(".header_wrap.center").css({
+      'background': 'transparent',
+      'box-shadow': 'none'
+    });
+  };
+
   //pgnum2 card spin effect
-
-  $(".card_wrap").click(function () {
-    $(this).toggleClass('flipped');
+  $(".skill_btn").click(function () {
+    $(".card_wrap").toggleClass('flipped');
   });
-
-
-
-  
-
-
-
-
 
 });
 
