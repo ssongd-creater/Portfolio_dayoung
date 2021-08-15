@@ -4,7 +4,7 @@
 a {text-decoration: none;color: #333;}
 ol,ul {list-style: none;}
 img {display: block;}
-input,button,textarea {outline: 0;}
+input,button,textarea {outline: 0;border:0;color:#777;}
 button{outline:0;border:1px solid;}
 h2{font-size:25px;}
 
@@ -58,7 +58,7 @@ header .navigation .navi p{font-size:18px;}
 .pgnum_2 .skill_wrap .right_skill>li i{font-size:10px;color:#7da1d4; padding-right: 5px;}
 .pgnum_2 .main2_contents .skill_bar{width:90%;height:30px;_background:#333;display:flex;justify-content: center;}
 .pgnum_2 .skill_wrap .left_skill .total_bar,
-.pgnum_2 .skill_wrap .right_skill .total_bar{width:100%;height:70%;display:flex;align-items: center;background:#eee;margin:auto;border-radius:15px;}
+.pgnum_2 .skill_wrap .right_skill .total_bar{width:100%;height:70%;display:flex;align-items: center;background:#ccc;margin:auto;border-radius:15px;}
 .pgnum_2 .skill_wrap .left_skill .sub_bar,
 .pgnum_2 .skill_wrap .right_skill .sub_bar{height:100%;border-radius:15px;}
 
@@ -112,17 +112,33 @@ header .navigation .navi p{font-size:18px;}
 
 
 /* 5th Slide Page Style Code */
-.pgnum_5 .contact{width:100%;height:850px;display:flex;justify-content:space-between;align-items: center;}
+.pgnum_5 .contact{width:100%;height:100%;display:flex;justify-content:space-between;align-items: center;}
 .pgnum_5 .contact .contact_icon{width:40%;height:auto;margin:auto;display:flex;justify-content: center;}
 .pgnum_5 .contact .contact_icon i{font-size:250px;color:#efefef;}
 .pgnum_5 .contact .contact_board{width:60%;height:auto;}
+.pgnum_5 .contact .contact_board h2{text-align: center;color:#fff;margin-bottom: 15px;;}
 .pgnum_5 .contact .contact_board ul{width:85%;height:auto;margin:auto;background:#efefef;border-radius:10px;overflow: hidden;padding:10px;}
 .pgnum_5 .contact .contact_board li{width:95%;margin:auto;display:flex;}
 .pgnum_5 .contact .contact_board li.board_tit{background:cornflowerblue;color:#efefef;text-align: center;}
 
-.pgnum_5 .contact .contact_board li>span{font-size:14px;padding:5px; border-bottom:1px solid rgb(166, 190, 235);text-align: center;}
+.pgnum_5 .contact .contact_board li>span{font-size:13px;padding:5px; border-bottom:1px solid rgb(166, 190, 235);text-align: center;font-family: 'Gowun Dodum', sans-serif;}
 .pgnum_5 .contact .contact_board li>span:nth-child(1){width:10%;}
 .pgnum_5 .contact .contact_board li>span:nth-child(2){width:20%;}
 .pgnum_5 .contact .contact_board li>span:nth-child(3){width:50%;}
 .pgnum_5 .contact .contact_board li>span:nth-child(4){width:20%;}
 .pgnum_5 .contact .contact_board .board_con>span:nth-child(3){text-align:left;}
+
+.pgnum_5 .contact .contact_board .contact_write{width:85%;height:auto;margin:20px auto;}
+.pgnum_5 .contact .contact_board .contact_write h3{font-size:16px;display:flex;align-items:center;color:#fff;padding:15px 0;}
+.pgnum_5 .contact .contact_board .contact_write h3 i{font-size:13px;color:cornflowerblue;margin-right:5px;}
+.pgnum_5 .contact .contact_board .write_box{width:100%;height:auto;background:#efefef;padding:10px;border-radius:10px;}
+.pgnum_5 .contact .contact_board .write_box .write_tit{width:95%;height:auto;display:flex;align-items: center;justify-content: space-between;margin:auto;}
+.pgnum_5 .contact .contact_board .write_box .write_tit span{width:10%; background:cornflowerblue;color:#fff;padding:4px 0;text-align:center;font-size:13px;}
+.pgnum_5 .contact .contact_board .write_box .write_tit input{width:calc(60% - 10px);padding:5px;color:#666;font-family: 'Gowun Dodum', sans-serif;font-size:13px;}
+.pgnum_5 .contact .contact_board .write_box .write_tit input#write_name{width:calc(20% - 10px)}
+.pgnum_5 .contact .contact_board .write_box .write_con{width:95%;height:120px; margin:auto;}
+.pgnum_5 .contact .contact_board .write_box .write_con textarea{font-size:13px;font-family: 'Gowun Dodum', sans-serif;width:100%;height:110px;margin:10px auto 0 0;resize:none;padding:5px;}
+
+.pgnum_5 .contact .contact_board .write_btn{width:100%;height:30px;display:flex;justify-content: center;}
+.pgnum_5 .contact .contact_board .write_btn button{width:100px; height:100%;color:#fff;background:cornflowerblue;border-radius:5px;font-family: 'Gowun Dodum', sans-serif;}
+.pgnum_5 .contact .contact_board .write_btn button:hover{width:100px; height:100%;color:cornflowerblue;background:#fff;border-radius:5px;font-family: 'Gowun Dodum', sans-serif;}

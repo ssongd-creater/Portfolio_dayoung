@@ -14,13 +14,12 @@
     <!-- Google font Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"rel="stylesheet">
     <!-- Main Google font Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gowun+Dodum&family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet">
 </head>
 <body>
@@ -334,47 +333,11 @@
           </div>
 
           <div class="contact_board">
-            <ul>
-              <li class="board_tit">
-                <span>번호</span>
-                <span>이름</span>
-                <span>제목</span>
-                <span>등록일</span>
-              </li>
-              <li class="board_con">
-                <span>1</span>
-                <span></a>어디회사</span>
-                <span><a href="#">이력서 보내주세요</a></span>
-                <span>2021-08-15</span>
-              </li>
-              <li class="board_con">
-                <span>1</span>
-                <span></a>어디회사</span>
-                <span><a href="#">이력서 보내주세요</a></span>
-                <span>2021-08-15</span>
-              </li>
-              <li class="board_con">
-                <span>1</span>
-                <span></a>어디회사</span>
-                <span><a href="#">이력서 보내주세요</a></span>
-                <span>2021-08-15</span>
-              </li>
-              <li class="board_con">
-                <span>1</span>
-                <span></a>어디회사</span>
-                <span><a href="#">이력서 보내주세요</a></span>
-                <span>2021-08-15</span>
-              </li>
-              <li class="board_con">
-                <span>1</span>
-                <span></a>어디회사</span>
-                <span><a href="#">이력서 보내주세요</a></span>
-                <span>2021-08-15</span>
-              </li>
-              
-              
-            </ul>
+            
+
+            <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/php/community.php"; ?>
           </div>
+          <!-- End of contact_board -->
         </div>
           
         </div>

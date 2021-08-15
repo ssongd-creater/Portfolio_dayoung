@@ -27,6 +27,12 @@ $(document).ready(function () {
   //pgnum2 card spin effect
   $(".skill_btn").click(function () {
     $(".card_wrap").toggleClass('flipped');
+    // $(".skill_btn button").text('View Intro');
+    if ($(".card_wrap").hasClass('flipped')) {
+       $(".skill_btn button").text('View Intro');
+    } else{
+      $(".skill_btn button").text('View My Skill');
+    }
   });
 
 });
