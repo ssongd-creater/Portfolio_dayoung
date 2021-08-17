@@ -117,7 +117,8 @@ header .navigation .navi p{font-size:18px;}
 .pgnum_5 .contact .contact_icon i{font-size:250px;color:#efefef;}
 .pgnum_5 .contact .contact_board{width:60%;height:auto;}
 .pgnum_5 .contact .contact_board h2{text-align: center;color:#fff;;}
-.pgnum_5 .contact .contact_board ul{width:85%;height:auto;margin:20px auto;background:#efefef;border-radius:10px;overflow: hidden;padding:10px;}
+.pgnum_5 .contact .contact_board ul{width:85%;height:210px;margin:20px auto;background:#efefef;border-radius:10px;overflow: hidden;padding:10px;overflow-y: auto;}
+.pgnum_5 .contact .contact_board ul::-webkit-scrollbar{display:none;}
 .pgnum_5 .contact .contact_board li{width:95%;margin:auto;display:flex;}
 .pgnum_5 .contact .contact_board li.board_tit{background:cornflowerblue;color:#efefef;text-align: center;}
 

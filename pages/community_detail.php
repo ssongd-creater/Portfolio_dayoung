@@ -25,7 +25,7 @@
 
   <?php
     include $_SERVER["DOCUMENT_ROOT"]."/connect/db_conn.php";
-    $sql = "SELECT * FROM pofol ORDER BY Pofol_comm_idx DESC LIMIT 10";
+    $sql = "SELECT * FROM pofol ORDER BY Pofol_comm_idx DESC";
 
     $pofol_result = mysqli_query($dbConn,$sql);
     $pofol_row = mysqli_fetch_array($pofol_result);
@@ -61,23 +61,46 @@
     </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- <script>
-  $(document).ready(function(){
-    $(".more_btn").on('click',function(){
-      $.ajax({
-        url:"/dy_pofol/php/community_insert.php",
-        method:'post',
-        data:'html',
-        dataType:'json',
-        success:function(data){
-          $("board_con").append(data);
-        }
-      })
+<script>
+  $(function() {
+    $(".board_con").hide();
+    $(".board_con").slice(0, 5).show();
+
+    $(".more_btn").click(function() {
+      //console.log($(".board-contents:hidden").length);
+      $(".board_con:hidden").slice(0, 5).show();
     });
-
-
-
+    //테이블 탭 활성화 기능
 
   });
-</script> -->
+  </script>
+<!-- <script>
+  const more_btn = document.querySelector(".board_more button");
+  const board_con = document.querySelector(".board_con");
+  //console.log(board_con);
+  let current = 5;
+  async function pfJson(){
+    const pfTableJson = await fetch('/dy_pofol/data/pf_table.json');
+    let writeTxt = await pfTableJson.json();
+    let writeLength = writeTxt.length; //24
+    let writeslide = Math.ceil(writeLength/5);
 
+    //console.log(writeslide); 총길이에서 /5 확인
+    
+
+
+    //8/17 도전결과 참담!!
+    // for(i=0; i < writeslide; i++){
+    //   more_btn.addEventListener('click',function(){
+    //     let slicef = i;
+    //   let sliceButton = writeTxt.slice(slicef,current); //배열 5개씩 잘린게 확인됨,근데 잘린 5개가 반복이됨
+    //   console.log(sliceButton);
+    // });
+    //};
+    
+    //console.log(writeTxt[0].pf_idx); //json data가 배열로 들어옴을 확인함
+    // //console.log(more_btn);
+  }
+  pfJson().then(wirteTxt => {wirteTxt});
+ //pfJson();
+</script> -->
