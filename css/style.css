@@ -110,33 +110,43 @@ header .navigation .navi p{font-size:18px;}
 .pgnum_3 .slide .slide_txt .slide_button button:hover{width:100%; height:100%;color:cornflowerblue;background:#fff;border-radius:10px;}
 
 /* 4rd Slide Page Style Code */
-.pgnum_4 .pgnum_4wrap{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;}
-.pgnum_4 .pgnum_4wrap .info_txt{width:100%;height:20%;}
-
-.pgnum_4 .pgnum_4wrap .ps_aiwrap {width:50%;height:70%;display:flex;border-radius:10px;overflow:hidden;justify-content: center;}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section{width:100%;height:100%;min-width: 0;;transition:1s;overflow: hidden;background-size:contain;}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section.active{min-width:100%;display:flex;align-items:center;justify-content: center;}
-
+.pgnum_4 .pgnum_4wrap{width:100%;height:100%;display:flex;align-items:center;justify-content: center;}
+.pgnum_4 .punum_4_mainbox{width:90%;height:65%;display:flex;align-items: center;margin-top:80px;}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap {width:52%;height:100%;display:flex;border-radius:10px;overflow:hidden;justify-content: center;}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section{width:100%;height:100%;min-width: 0;;transition:1s;overflow: hidden;}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section.active{min-width:100%;display:flex;align-items:center;justify-content: center;overflow:hidden;}
 .pgnum_4 .pgnum_4wrap .ps_aiwrap section.inner{padding:10px;}
 
-
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(1){background: center no-repeat url(/dy_pofol/img/app_design.png);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(2){background: center no-repeat url(/dy_pofol/img/flower_shop.png);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(3){background: center no-repeat url(/dy_pofol/img/flower_shop_sub.png);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(4){background: center no-repeat url(/dy_pofol/img/medi.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(5){background: center no-repeat url(/dy_pofol/img/wedding.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(6){background: center no-repeat url(/dy_pofol/img/natural.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(7){background: center no-repeat url(/dy_pofol/img/shop.png);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(8){background: center no-repeat url(/dy_pofol/img/shop_sub.png);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(9){background: center no-repeat url(/dy_pofol/img/pop_up.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(10){background: center no-repeat url(/dy_pofol/img/uniq_renewal.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(11){background: center no-repeat url(/dy_pofol/img/uniq_renewal_2.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(12){background: center no-repeat url(/dy_pofol/img/brush.jpg);background-size:contain;}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(13){background: center no-repeat url(/dy_pofol/img/font_test.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(14){background: center no-repeat url(/dy_pofol/img/artwork_animal.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(15){background: center no-repeat url(/dy_pofol/img/artwork_book.jpg);}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(16){background: center no-repeat url(/dy_pofol/img/artwork_art.jpg);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(1){background: center no-repeat url(/dy_pofol/img/app_design_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(2){background: center no-repeat url(/dy_pofol/img/flower_shop_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(3){background: center no-repeat url(/dy_pofol/img/flower_shop_sub_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(4){background: center no-repeat url(/dy_pofol/img/medi_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(5){background: center no-repeat url(/dy_pofol/img/wedding_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(6){background: center no-repeat url(/dy_pofol/img/natural_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(7){background: center no-repeat url(/dy_pofol/img/shop_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(8){background: center no-repeat url(/dy_pofol/img/shop_sub_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(9){background: center no-repeat url(/dy_pofol/img/pop_up_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(10){background: center no-repeat url(/dy_pofol/img/uniq_renewal_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(11){background: center no-repeat url(/dy_pofol/img/uniq_renewal_2_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(12){background: center no-repeat url(/dy_pofol/img/brush_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(13){background: center no-repeat url(/dy_pofol/img/font_test_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(14){background: center no-repeat url(/dy_pofol/img/artwork_animal_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(15){background: center no-repeat url(/dy_pofol/img/artwork_book_web.png);}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(16){background: center no-repeat url(/dy_pofol/img/artwork_art_web.png);}
 .pgnum_4 .pgnum_4wrap .ps_aiwrap section img{width:100%;height:auto;padding:10px;}
+
+.pgnum_4 .punum_4_mainbox .ps_aitxt{width:40%;height:auto;display:flex;align-items:center;margin:auto;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt{width:100%;height:auto;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt h2{padding:20px 0;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:16px; padding:10px 0;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt p i{color:cornflowerblue;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt button{width:150px; height:40px;color:#fff;background:cornflowerblue;border-radius:10px;margin-top:20px;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt button:hover{width:150px; height:40px;color:cornflowerblue;background:#fff;border-radius:10px;}
+
+
+
+
+
 
 
 

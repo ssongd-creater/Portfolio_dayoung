@@ -322,82 +322,76 @@
             </div>
           </div>
         </div>
-      </div><div class="section pgnum_4" data-anchor="3rd">
+      </div>
+      <div class="section pgnum_4" data-anchor="3rd">
         <div class="center">
           <div class="pgnum_4wrap">
-            <div class="info_txt">
-            <h2>My PS & AI</h2>
-          </div>
-          <div class="ps_aiwrap">
-            <section class="imgbox active">
-              <div class="inner">
+            <div class="punum_4_mainbox">
+              <div class="ps_aiwrap">
+                <section class="imgbox active">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
+                <section class="imgbox">
+                  <div class="inner"></div>
+                </section>
               </div>
-            
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-             
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-              
-            </section>
-            <section class="imgbox">
-              <div class="inner"></div>
-             
-            </section>
-          </div>
-          </div>
-          
+              <!-- End of ps_aiwrap -->
+              <div class="ps_aitxt">
+                <div class="psai_txt">
+                  <h2>My PS & AI</h2>
+                  <p><i class="fa fa-asterisk"> </i> 웹디자인, 앱디자인, 팝업디자인, 아트워크</p>
+                  <p> - 포토샵과 일러스트레이터를 활용하여 디자인한 작업물입니다.</p>
+                  <p> - 해당 사진을 더 크게 보고싶다면 아래 버튼을 눌러주세요 :-)</p>
+                  
+                  <button type="button" class="view_img">자세히 보기</button>
+                </div>
+              </div>
+            </div>
+          </div>     
         </div>
+        <!-- End of Center -->
       </div>
       <div class="section pgnum_5" data-anchor="4rd">
         <div class="center">
