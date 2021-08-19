@@ -22,6 +22,44 @@
     href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gowun+Dodum&family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
 
+
+    <?php
+    include $_SERVER["DOCUMENT_ROOT"]."/connect/db_conn.php";
+    $sql = "SELECT * FROM pofol ORDER BY Pofol_comm_idx DESC";
+
+    $pofol_result = mysqli_query($dbConn,$sql);
+    $pofol_row = mysqli_fetch_array($pofol_result);
+  ?>
+  <h2>Community Board</h2>
+    <ul>
+      <li class="board_tit">
+        <span>번호</span>
+        <span>이름</span>
+        <span>제목</span>
+        <span>등록일</span>
+      </li>
+      <?php
+      $rowpage = 5;
+
+      while($pofol_row = mysqli_fetch_array($pofol_result)){
+        $pofol_idx = $pofol_row['Pofol_comm_idx'];
+        $pofol_name = $pofol_row['Pofol_comm_name'];
+        $pofol_tit = $pofol_row['Pofol_comm_tit'];
+        $pofol_con = $pofol_row['Pofol_comm_con'];
+        $pofol_reg = $pofol_row['Pofol_comm_reg'];
+      ?>
+      <li class="board_con">
+        <span><?=$pofol_idx?></span>
+        <span><?=$pofol_name?></span>
+        <span><a href="/dy_pofol/pages/community_detail.php?detail_idx=<?=$pofol_idx?>"><?=$pofol_tit?></a></span>
+        <span><?=$pofol_reg?></span>
+      </li>
+      <?php }?>
+    </ul>
+    <div class="board_more">
+      <button type="button" class="more_btn">더보기</button>
+    </div>
+    
   <h3><i class="fa fa-asterisk"></i>글을 입력해주세요</h3>
   <form class="contact_write" method="post" name="write_form" action="/dy_pofol/php/community_insert.php">
   <div class="write_box">
@@ -39,6 +77,9 @@
 <div class="write_btn">
   <button type="button" onclick="sendWrite()">글쓰기</button>
 </div>
+
+ 
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
@@ -59,3 +100,16 @@
       document.write_form.submit();
     };
 </script>
+<script>
+  $(function() {
+    $(".board_con").hide();
+    $(".board_con").slice(0, 5).show();
+
+    $(".more_btn").click(function() {
+      //console.log($(".board-contents:hidden").length);
+      $(".board_con:hidden").slice(0, 5).show();
+    });
+    //테이블 탭 활성화 기능
+
+  });
+  </script>

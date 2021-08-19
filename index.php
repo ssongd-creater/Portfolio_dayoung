@@ -402,7 +402,6 @@
 
           <div class="contact_board">
             
-            <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/pages/community_detail.php";?>
             <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/pages/community_form.php"; ?>
           </div>
           <!-- End of contact_board -->
