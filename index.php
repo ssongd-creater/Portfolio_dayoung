@@ -171,17 +171,17 @@
 
             <div class="slide_bg">
               <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
+                <a href="/schedule" target="_blank"><img src="/dy_pofol/img/schedule.gif" alt=""></a>
               </div>
               <div class="slide_txt">
                 <div class="txt_box">
                   <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 1</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
+                  <p>프로젝트명 : My Schedule</p>
+                  <p>사용 언어 : HTML / CSS / JavaScript / jQuery / PHP </p>
+                  <p>라이브러리 : easypiechart / lightslider</p>
+                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
-                    <button>View Site</button>
+                    <a href="/schedule" target="_blank"><button>View Site</button></a>
                   </div>
                 </div>
               </div>
@@ -191,17 +191,17 @@
           <div class="slide  slide_2">
             <div class="slide_bg">
               <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
+                <a href="/reveal" target="_blank"><img src="/dy_pofol/img/reveal.gif" alt=""></a>
               </div>
               <div class="slide_txt">
                 <div class="txt_box">
                   <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 2</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
+                  <p>프로젝트명 : Reveal</p>
+                  <p>사용 언어 : HTML / CSS / JavaScript / jQuery / PHP</p>
+                  <p>라이브러리 : owlcarousel / venobox / wow</p>
+                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
-                    <button>View Site</button>
+                    <a href="/reveal" target="_blank"><button>View Site</button></a>
                   </div>
                 </div>
               </div>
@@ -210,17 +210,17 @@
           <div class="slide  slide_3">
             <div class="slide_bg">
               <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
+                <a href="/renewal" target="_blank"><img src="/dy_pofol/img/lush.gif" alt=""></a>
               </div>
               <div class="slide_txt">
                 <div class="txt_box">
                   <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 3</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
+                  <p>프로젝트명 : LUSH Renewal</p>
+                  <p>사용 언어 : HTML / CSS / JavaScript / jQuery</p>
+                  <p>라이브러리 : slickslider</p>
+                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></p>
                   <div class="slide_button">
-                    <button>View Site</button>
+                    <a href="/renewal" target="_blank"><button>View Site</button></a>
                   </div>
                 </div>
               </div>
@@ -229,17 +229,17 @@
           <div class="slide  slide_4">
             <div class="slide_bg">
               <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
+                <a href="/lbcamp" target="_blank"><img src="/dy_pofol/img/lb_camp.gif" alt=""></a>
               </div>
               <div class="slide_txt">
                 <div class="txt_box">
                   <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 4</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
+                  <p>프로젝트명 : API / Camping App (Iphone5/SE)</p>
+                  <p>사용 언어 : HTML / CSS / jQuery</p>
+                  <p>라이브러리 : 사용안함</p>
+                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
-                    <button>View Site</button>
+                    <a href="/lbcamp" target="_blank"><button>View Site</button></a>
                   </div>
                 </div>
               </div>
@@ -248,17 +248,17 @@
           <div class="slide  slide_5">
             <div class="slide_bg">
               <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
+                <a href="/renewal_mammoth" target="_blank"><img src="/dy_pofol/img/mammoth.gif" alt=""></a>
               </div>
               <div class="slide_txt">
                 <div class="txt_box">
                   <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 5</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
+                  <p>프로젝트명 : Mammoth Renewal</p>
+                  <p>사용 언어 : HTML / CSS / jQuery </p>
+                  <p>라이브러리 : fullpage</p>
+                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></p>
                   <div class="slide_button">
-                    <button>View Site</button>
+                    <a href="/renewal_mammoth" target="_blank"><button>View Site</button></a>
                   </div>
                 </div>
               </div>
@@ -267,17 +267,17 @@
           <div class="slide  slide_6">
             <div class="slide_bg">
               <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
+                <a href="/renewal_beksul" target="_blank"><img src="/dy_pofol/img/beksul.gif" alt=""></a>
               </div>
               <div class="slide_txt">
                 <div class="txt_box">
                   <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 6</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
+                  <p>프로젝트명 : Beksul Renewal</p>
+                  <p>사용 언어 : HTML / CSS / jQuery</p>
+                  <p>라이브러리 : 사용안함</p>
+                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
                   <div class="slide_button">
-                    <button>View Site</button>
+                    <a href="/renewal_beksul" target="_blank"><button>View Site</button></a>
                   </div>
                 </div>
               </div>
@@ -286,36 +286,17 @@
           <div class="slide  slide_7" >
             <div class="slide_bg">
               <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
+                <a href="/dy_pofol" target="_blank"><img src="/dy_pofol/img/pofol.gif" alt=""></a>
               </div>
               <div class="slide_txt">
                 <div class="txt_box">
                   <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 7</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
+                  <p>프로젝트명 : My portfolio</p>
+                  <p>사용 언어 : HTML / CSS / JavaScript / jQuery / PHP </p>
+                  <p>라이브러리 : fullpage</p>
+                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
                   <div class="slide_button">
-                    <button>View Site</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="slide  slide_8">
-            <div class="slide_bg">
-              <div class="slide_image">
-                <a href="#"><img src="/dy_pofol/img/ex_pofol.gif" alt=""></a>
-              </div>
-              <div class="slide_txt">
-                <div class="txt_box">
-                  <h2>Web Portfolio</h2>
-                  <p>프로젝트명 : 프로젝트 8</p>
-                  <p>사용 언어 :</p>
-                  <p>참여 인원 :</p>
-                  <p>이해도 :</p>
-                  <div class="slide_button">
-                    <button>View Site</button>
+                    <a href="/dy_pofol" target="_blank"><button>View Site</button></a>
                   </div>
                 </div>
               </div>
@@ -393,22 +374,9 @@
         </div>
         <!-- End of Center -->
       </div>
-      <div class="section pgnum_5" data-anchor="4rd">
-        <div class="center">
-          <div class="contact">
-            <div class="contact_icon">
-            <i class="fa fa-comments-o"></i>
-          </div>
+      
+      <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/pages/community_form.php"; ?>
 
-          <div class="contact_board">
-            
-            <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/pages/community_form.php"; ?>
-          </div>
-          <!-- End of contact_board -->
-        </div>
-          
-        </div>
-      </div>
   </div>
 
 

@@ -144,14 +144,6 @@ header .navigation .navi p{font-size:18px;}
 .pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt button:hover{width:150px; height:40px;color:cornflowerblue;background:#fff;border-radius:10px;}
 
 
-
-
-
-
-
-
-
-
 /* 5th Slide Page Style Code */
 .pgnum_5 .contact{width:100%;height:100%;display:flex;justify-content:space-between;align-items: center;}
 .pgnum_5 .contact .contact_icon{width:40%;height:auto;margin:auto;display:flex;justify-content: center;}
@@ -159,9 +151,24 @@ header .navigation .navi p{font-size:18px;}
 .pgnum_5 .contact .contact_board{width:60%;height:auto;}
 .pgnum_5 .contact .contact_board h2{text-align: center;color:#fff;;}
 .pgnum_5 .contact .contact_board ul{width:85%;height:210px;margin:20px auto;background:#efefef;border-radius:10px;overflow: hidden;padding:10px;overflow-y: auto;}
-.pgnum_5 .contact .contact_board ul::-webkit-scrollbar{display:none;}
+.pgnum_5 .contact .contact_board ul::-webkit-scrollbar{display:block;width:6px;}
+.pgnum_5 .contact .contact_board ul::-webkit-scrollbar-track{background-color: transparent;}
+.pgnum_5 .contact .contact_board ul::-webkit-scrollbar-thumb {border-radius: 3px;background-color: cornflowerblue;}
+.pgnum_5 .contact .contact_board ul::-webkit-scrollbar-button {width:0;height:0;}
+
 .pgnum_5 .contact .contact_board li{width:95%;margin:auto;display:flex;}
-.pgnum_5 .contact .contact_board li.board_tit{background:cornflowerblue;color:#efefef;text-align: center;}
+.pgnum_5 .contact .contact_board li.board_tit{background:cornflowerblue;text-align: center;}
+
+/* Detail.php Style Code */
+.pgnum_5 .contact .contact_board.detail_board p{width:85%;margin:auto;color:#fff;margin-top:30px;}
+.pgnum_5 .contact .contact_board.detail_board p i{font-size:13px;color:cornflowerblue;}
+.pgnum_5 .contact .contact_board.detail_board>.detail_board_ul{overflow-y: hidden;}
+.pgnum_5 .contact .contact_board .board_tit{color:#efefef;}
+.pgnum_5 .contact .contact_board .board_tit.board_detail{display:flex;align-items: center;justify-content: space-between;background:#efefef;}
+.pgnum_5 .contact .contact_board .board_tit.board_detail>span:nth-child(1){width:30%;background:cornflowerblue;padding:6px;border-radius: 5px 0 0 5px;color:#efefef;}
+.pgnum_5 .contact .contact_board .board_tit.board_detail>span:nth-child(2){width:calc(70% - 5px); border:1px solid cornflowerblue;border-radius:0 5px 5px 0;text-align: left;color:#333;}
+.pgnum_5 .contact .contact_board .board_con.board_detail_con>span{width:100%;height:150px;border:1px solid cornflowerblue;margin-top:10px; padding:10px;border-radius: 5px;text-align: left;}
+
 
 .pgnum_5 .contact .contact_board li>span{font-size:13px;padding:5px; border-bottom:1px solid rgb(166, 190, 235);text-align: center;font-family: 'Gowun Dodum', sans-serif;}
 .pgnum_5 .contact .contact_board li>span:nth-child(1){width:10%;}

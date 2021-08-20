@@ -128,40 +128,36 @@ const pngimgs = document.querySelectorAll(".imgbox");
 
 //let pngbackground = getComputedStyle(pngimg, 'active');
 //console.log(pngbackground.backgroundImage);
+function imageNameChange() {
+  for (let i = 0; i < pngimgs.length; i++) {
+    btn_click.addEventListener('click', function () {
+      if (pngimgs[i].classList.contains('active')) {
+        const pngbackground = getComputedStyle(pngimgs[i], 'active');
+        const pngback = pngbackground.backgroundImage;
+        const backpng = pngback.split("/");
+        const backLength = backpng.length;
+        const backName = backpng[backLength - 1];
+        const backSplitName = backName.split(".");
+        const backFileName = backSplitName[0]//app_design_web
+        const backPngName = backSplitName[1].substr(backSplitName[1] - 1, 3);//png
+        const removeName = backFileName.replace('_web', '');
+        const totalName = `/dy_pofol/img/` + removeName + `.` + backPngName;
+        //const changeName = backName.replace(backPngName, 'img/app_design');
 
-for (let i = 0; i < pngimgs.length; i++){
-  btn_click.addEventListener('click', function () {
-    if (pngimgs[i].classList.contains('active')) {
-      const pngbackground = getComputedStyle(pngimgs[i], 'active');
-      const pngback = pngbackground.backgroundImage;
-      const backpng = pngback.split("/");
-      const backLength = backpng.length;
-      const backName = backpng[backLength - 1];
-      const backSplitName = backName.split(".");
-      const backFileName = backSplitName[0]//app_design_web
-      const backPngName = backSplitName[1].substr(backSplitName[1] - 1, 3);//png
-      const removeName = backFileName.replace('_web','');
-      const totalName = `/dy_pofol/img/` + removeName + `.` + backPngName;
-      //const changeName = backName.replace(backPngName, 'img/app_design');
-      
-      window.open(totalName); //모달로 바꿀예정
-      
-      //console.log(totalName);
-     // console.log(backName);//app_design_web.png")
-      //console.log(backFileName); 파일명만 분리하여 변수지정
-      //클릭하는 이미지의 해당 url값을 불러옴
-      //url("http://localhost/dy_pofol/img/flower_shop_sub_web.png")
-      //console.log(pngbackground.backgroundImage);
-    }
-    
-  });
+        window.open(totalName); //모달로 바꿀예정
+
+        //console.log(totalName);
+        // console.log(backName);//app_design_web.png")
+        //console.log(backFileName); 파일명만 분리하여 변수지정
+        //클릭하는 이미지의 해당 url값을 불러옴
+        //url("http://localhost/dy_pofol/img/flower_shop_sub_web.png")
+        //console.log(pngbackground.backgroundImage);
+      }
+
+    });
+  }
 }
-//console.log(pngimgs);
 
-// btn_click.addEventListener('click', function () {
-  
-//   //alert("abc");
-// });
-
+imageNameChange();
 
 

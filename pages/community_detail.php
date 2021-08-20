@@ -22,42 +22,55 @@
     href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gowun+Dodum&family=Roboto:wght@100;300;400;500;700;900&display=swap"
     rel="stylesheet">
 
+     <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/include/header.php"; ?>
 
-  <?php
-    include $_SERVER["DOCUMENT_ROOT"]."/connect/db_conn.php";
-    $sql = "SELECT * FROM pofol ORDER BY Pofol_comm_idx DESC";
+  <div class="section pgnum_5" data-anchor="4rd">
+    <div class="center">
+      <div class="contact">
+        <div class="contact_icon">
+        <i class="fa fa-comments-o"></i>
+      </div>
 
-    $pofol_result = mysqli_query($dbConn,$sql);
-    $pofol_row = mysqli_fetch_array($pofol_result);
-  ?>
-  <h2>Community Board</h2>
-    <ul>
-      <li class="board_tit">
-        <span>번호</span>
-        <span>이름</span>
-        <span>제목</span>
-        <span>등록일</span>
-      </li>
-      <?php
-      $rowpage = 5;
+      <div class="contact_board detail_board">
+        <?php
+        $detail_idx = $_GET['detail_idx'];
+        //echo $detail_idx;
+        include $_SERVER["DOCUMENT_ROOT"]."/connect/db_conn.php";
+        $sql = "SELECT * FROM pofol WHERE Pofol_comm_idx=$detail_idx ORDER BY Pofol_comm_idx DESC";
 
-      while($pofol_row = mysqli_fetch_array($pofol_result)){
-        $pofol_idx = $pofol_row['Pofol_comm_idx'];
-        $pofol_name = $pofol_row['Pofol_comm_name'];
-        $pofol_tit = $pofol_row['Pofol_comm_tit'];
-        $pofol_con = $pofol_row['Pofol_comm_con'];
-        $pofol_reg = $pofol_row['Pofol_comm_reg'];
-      ?>
-      <li class="board_con">
-        <span><?=$pofol_idx?></span>
-        <span><?=$pofol_name?></span>
-        <span><a href="/dy_pofol/pages/community_detail.php?detail_idx=<?=$pofol_idx?>"><?=$pofol_tit?></a></span>
-        <span><?=$pofol_reg?></span>
-      </li>
-      <?php }?>
-    </ul>
-    <div class="board_more">
-      <button type="button" class="more_btn">더보기</button>
+        $detail_result = mysqli_query($dbConn,$sql);
+        $detail_row = mysqli_fetch_array($detail_result);
+
+        //$detail_idx = $detail_row['Pofol_comm_idx'];
+        $detail_name = $detail_row['Pofol_comm_name'];
+        $detail_tit = $detail_row['Pofol_comm_tit'];
+        $detail_con = $detail_row['Pofol_comm_con'];
+        $detail_reg = $detail_row['Pofol_comm_reg'];
+        ?>
+        <h2>Community View Contents</h2>
+        <p><i class="fa fa-asterisk"> </i> Post by <?=$detail_name?> / <?=$detail_reg?></p>
+          <ul class="detail_board_ul">
+            <li class="board_tit board_detail">
+              <span>제목</span>
+              <span><?=$detail_tit?></span>
+            </li>
+            <li class="board_con board_detail_con">
+              <span><?=$detail_con?></span>
+            </li>
+          </ul>
+
+        <div class="board_more">
+          <button type="button" class="more_btn">뒤로가기</button>
+        </div>
+          <!-- End of contact_board -->
+      </div>
     </div>
-
+  </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+  const backBtn = document.querySelector('.more_btn');
+  //console.log(backBtn);
+  backBtn.addEventListener('click',function(){
+    location.href='/dy_pofol/#4rd';
+  });
+</script>

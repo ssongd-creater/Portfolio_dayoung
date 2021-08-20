@@ -5,16 +5,19 @@
 - 아직 할 것 없음
 
 #2nd
-- 이미지 및 텍스트 정리
-- 더보기 버튼 눌렀을 때 해당 페이지 location
+-- 이미지 및 텍스트 정리
+-- 더보기 버튼 눌렀을 때 해당 페이지 location
 
 #3rd
 - window open을 modal_box로 변경
 
 #4rd
-- 커뮤니티 스크롤 나오게 webkit 적용하기
-- 제목 클릭 시 내용 보여질 수 있게 연결
+-- 커뮤니티 스크롤 나오게 webkit 적용하기
+-- communiry form 제목 클릭 시 내용 보여질 수 있게 연결
 
+문제점
+> 스크롤 block되며 화면 밀림 현상 고쳐보기
+> detail.php 에 header 모양이 다른점 확인해보기 / fullpage가 연동이 안되서 그런 것 같음
 
 
 >>> 전체 media 처리도 해야 함
