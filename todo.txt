@@ -9,7 +9,7 @@
 -- 더보기 버튼 눌렀을 때 해당 페이지 location
 
 #3rd
-- window open을 modal_box로 변경
+-- window open을 modal_box로 변경
 
 #4rd
 -- 커뮤니티 스크롤 나오게 webkit 적용하기

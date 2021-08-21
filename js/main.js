@@ -12,7 +12,7 @@ $(document).ready(function () {
     css3:true,
     scrollingSpeed: 700,
     fitToSection: true,
-    normalScrollElements: '.ps_aiwrap, .board_con',
+    normalScrollElements: '.ps_aiwrap, .board_con .modal_box',
   });
   //$.fn.fullpage.setAllowScrolling(false);
 
@@ -118,13 +118,17 @@ function typing() {
   }
 }
 
-//4rd page Button Click Event
-
+//4rd page Button Click Event (Modal)
 const btn_click = document.querySelector(".psai_txt button");
 //console.log(btn_click);
 const pngimg = document.querySelector(".imgbox.active");
 const pngimgs = document.querySelectorAll(".imgbox");
 //console.log(pngimgs);
+
+const modal = document.querySelector(".modal_box");
+const modalClose = document.querySelector(".modal_close");
+const modalImgBox = document.querySelector(".modal_imgbox");
+
 
 //let pngbackground = getComputedStyle(pngimg, 'active');
 //console.log(pngbackground.backgroundImage);
@@ -133,31 +137,47 @@ function imageNameChange() {
     btn_click.addEventListener('click', function () {
       if (pngimgs[i].classList.contains('active')) {
         const pngbackground = getComputedStyle(pngimgs[i], 'active');
-        const pngback = pngbackground.backgroundImage;
-        const backpng = pngback.split("/");
-        const backLength = backpng.length;
-        const backName = backpng[backLength - 1];
-        const backSplitName = backName.split(".");
-        const backFileName = backSplitName[0]//app_design_web
-        const backPngName = backSplitName[1].substr(backSplitName[1] - 1, 3);//png
-        const removeName = backFileName.replace('_web', '');
-        const totalName = `/dy_pofol/img/` + removeName + `.` + backPngName;
-        //const changeName = backName.replace(backPngName, 'img/app_design');
+        let pngback = pngbackground.backgroundImage;
+        const backFirstUrl = pngback.substr(0, 35); //url("http://localhost/dy_pofol/
+        const backSplitName = pngback.split("/");
+        const backFileName = backSplitName[5];
+        const backSliceName = backSplitName[5].split(".");
+        const imageName = backSliceName[0].replace("_web", ""); //app_design
+        const backSubUrl = pngback.substr(-6); //.png")
+        const modalStyle = window.getComputedStyle(modalImgBox);
+        const modalBackImage = modalStyle.backgroundImage;
 
-        window.open(totalName); //모달로 바꿀예정
+        const totalImage = backFirstUrl + imageName + backSubUrl;
+        pngback = totalImage; //url("http://localhost/dy_pofol/app_design.png")
 
-        //console.log(totalName);
-        // console.log(backName);//app_design_web.png")
-        //console.log(backFileName); 파일명만 분리하여 변수지정
-        //클릭하는 이미지의 해당 url값을 불러옴
-        //url("http://localhost/dy_pofol/img/flower_shop_sub_web.png")
-        //console.log(pngbackground.backgroundImage);
+        modalImgBox.style.backgroundImage = pngback;
+
+        //modalBackImage.replace('url("http://localhost/dy_pofol/css/style.css")', pngback);
+        //modalBackImage.replace('url()', backFirstUrl + imageName + backSubUrl);
+
+
+        console.log(modalImgBox);
       }
-
     });
   }
+  btn_click.onclick = function () {
+    modal.style.display = "block";
+  }
+  modalClose.onclick = function () {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+
+  document.onkeydown = function (e) {
+    e = e || window.event;
+    if ("key" in e ? e.key === "Escape" || e.key === "Esc" : e.keyCode === 27)
+      modal.style.display = "none";
+  }
 }
-
 imageNameChange();
-
 

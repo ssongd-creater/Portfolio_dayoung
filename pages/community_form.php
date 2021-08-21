@@ -1,28 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creater SsongD</title>
-  <!-- Font Awesome Link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- Full Page Plugin Link -->
-  <link rel="stylesheet" href="/dy_pofol/fullpage_lib/jquery.fullpage.css">
-  <!-- Main Style Code Sheet -->
-  <link rel="stylesheet" href="/dy_pofol/css/style.css">
-  <!-- Google font Link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap"rel="stylesheet">
-  <!-- Main Google font Link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Gowun+Dodum&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-    rel="stylesheet">
-
-  <div class="section pgnum_5" data-anchor="4rd">
+<div class="section pgnum_5" data-anchor="4rd">
     <div class="center">
       <div class="contact">
         <div class="contact_icon">

@@ -23,24 +23,9 @@
       rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="navigation">
-      <div class="header_wrap center">
-        <a href="/dy_pofol/#home">
-          <div class="logo">
-          <!-- <em>Creater</em><br> -->
-          SsongD
-        </div>
-      </a>
-        
-        <div class="navi"><a href="/dy_pofol/#1st"><p>I'm</p></a>
-          <a href="/dy_pofol/#2nd"><p>Web</p></a>
-          <a href="/dy_pofol/#3rd"><p>PS & AI</p></a>
-          <a href="/dy_pofol/#4rd"><p>Contact</p></a>
-        </div>
-      </div>
-    </div>
-  </header>
+  
+<?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/include/header.php";?>
+
   <div id="fullpage">
       <div class="section pgnum_1" data-anchor="home">
         <div class="center">
@@ -179,7 +164,7 @@
                   <p>프로젝트명 : My Schedule</p>
                   <p>사용 언어 : HTML / CSS / JavaScript / jQuery / PHP </p>
                   <p>라이브러리 : easypiechart / lightslider</p>
-                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
+                  <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
                     <a href="/schedule" target="_blank"><button>View Site</button></a>
                   </div>
@@ -199,7 +184,7 @@
                   <p>프로젝트명 : Reveal</p>
                   <p>사용 언어 : HTML / CSS / JavaScript / jQuery / PHP</p>
                   <p>라이브러리 : owlcarousel / venobox / wow</p>
-                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
+                  <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
                     <a href="/reveal" target="_blank"><button>View Site</button></a>
                   </div>
@@ -218,7 +203,7 @@
                   <p>프로젝트명 : LUSH Renewal</p>
                   <p>사용 언어 : HTML / CSS / JavaScript / jQuery</p>
                   <p>라이브러리 : slickslider</p>
-                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></p>
+                  <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></p>
                   <div class="slide_button">
                     <a href="/renewal" target="_blank"><button>View Site</button></a>
                   </div>
@@ -237,7 +222,7 @@
                   <p>프로젝트명 : API / Camping App (Iphone5/SE)</p>
                   <p>사용 언어 : HTML / CSS / jQuery</p>
                   <p>라이브러리 : 사용안함</p>
-                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
+                  <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
                     <a href="/lbcamp" target="_blank"><button>View Site</button></a>
                   </div>
@@ -256,7 +241,7 @@
                   <p>프로젝트명 : Mammoth Renewal</p>
                   <p>사용 언어 : HTML / CSS / jQuery </p>
                   <p>라이브러리 : fullpage</p>
-                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></p>
+                  <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-empty"></i></p>
                   <div class="slide_button">
                     <a href="/renewal_mammoth" target="_blank"><button>View Site</button></a>
                   </div>
@@ -275,7 +260,7 @@
                   <p>프로젝트명 : Beksul Renewal</p>
                   <p>사용 언어 : HTML / CSS / jQuery</p>
                   <p>라이브러리 : 사용안함</p>
-                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
                   <div class="slide_button">
                     <a href="/renewal_beksul" target="_blank"><button>View Site</button></a>
                   </div>
@@ -294,7 +279,7 @@
                   <p>프로젝트명 : My portfolio</p>
                   <p>사용 언어 : HTML / CSS / JavaScript / jQuery / PHP </p>
                   <p>라이브러리 : fullpage</p>
-                  <p>이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                  <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
                   <div class="slide_button">
                     <a href="/dy_pofol" target="_blank"><button>View Site</button></a>
                   </div>
@@ -362,14 +347,17 @@
               <div class="ps_aitxt">
                 <div class="psai_txt">
                   <h2>My PS & AI</h2>
+                  <p class="more_photo"><i class="fa fa-asterisk"> </i> 이미지 위에서 스크롤을 하면 더 많은 작업물을 보실 수 있습니다.</p>
                   <p><i class="fa fa-asterisk"> </i> 웹디자인, 앱디자인, 팝업디자인, 아트워크</p>
                   <p> - 포토샵과 일러스트레이터를 활용하여 디자인한 작업물입니다.</p>
                   <p> - 해당 사진을 더 크게 보고싶다면 아래 버튼을 눌러주세요 :-)</p>
+                  
                   
                   <button type="button" class="view_img">자세히 보기</button>
                 </div>
               </div>
             </div>
+            <!-- End of punum_4_mainbox -->
           </div>     
         </div>
         <!-- End of Center -->
