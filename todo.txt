@@ -14,6 +14,7 @@
 #4rd
 -- 커뮤니티 스크롤 나오게 webkit 적용하기
 -- communiry form 제목 클릭 시 내용 보여질 수 있게 연결
+- 호스팅 후 fullpage에 normalScrollElements 오류
 
 문제점
 > 스크롤 block되며 화면 밀림 현상 고쳐보기

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/dy_pofol/fullpage_lib/jquery.fullpage.css">
     <!-- Main Style Code Sheet -->
     <link rel="stylesheet" href="/dy_pofol/css/style.css">
+    <!-- Media Style Code Sheet -->
+    <link rel="stylesheet" href="/dy_pofol/css/media.css">
     <!-- Google font Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -23,6 +23,13 @@ header .navigation .logo em{font-style:normal;font-size:18px;}
 .navigation .navi{width:80%;display:flex;justify-content: flex-end;align-items: center;}
 header .navigation .navi a{padding:0 40px;}
 header .navigation .navi p{font-size:18px;}
+/* Sub Navi Style Code */
+header .navigation .sub_navwrap{width:100px;position:absolute;right:0;bottom:-135%;text-align: center;}
+header .navigation .sub_navwrap .sub_navi{width:100%;height:50px;background:rgba(999,999,999,0.5);border-radius: 10px 10px 0 0;display:flex;justify-content: center;align-items: center;}
+header .navigation .sub_navwrap .sub_navi i{font-size:25px;}
+header .navigation .sub_navibox ul{background:rgba(999,999,999,0.5);border-radius:0 0 10px 10px;}
+header .navigation .sub_navibox ul li{padding:10px 0;}
+
 
 /* 1st Page Style Code */
 .pgnum_1{width:100%; height:100vh;}
