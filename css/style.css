@@ -24,14 +24,16 @@ header .navigation .logo em{font-style:normal;font-size:18px;}
 .navigation .navi{width:80%;display:flex;justify-content: flex-end;align-items: center;}
 header .navigation .navi a{padding:0 40px;}
 header .navigation .navi p{font-size:18px;}
+
 /* Sub Navi Style Code */
-header .navigation .sub_navwrap{width:100px;position:fixed;right:35px;top:30px;text-align: center;display:none;}
-header .navigation .sub_navwrap .sub_navi{width:90px;height:50px;background:rgba(999,999,999,0.5);border-radius: 10px;display:flex;justify-content: center;align-items: center;}
-header .navigation .sub_navwrap .sub_navi i{font-size:25px;color:#666;}
-header .navigation .sub_navibox{width:90px;padding-top:10px;display:none;}
+header .navigation .sub_navwrap{width:50px;position:fixed;right:45px;top:30px;text-align: center;display:none;}
+header .navigation .sub_navwrap .sub_navi{width:50px;height:50px;background:rgba(999,999,999,0.5);border-radius: 10px;display:flex;justify-content: center;align-items: center;}
+header .navigation .sub_navwrap .sub_navi i{font-size:20px;color:#666;}
+header .navigation .sub_navibox{width:50px;padding-top:10px;display:none;}
 header .navigation .sub_navibox ul{background:rgba(999,999,999,0.5);border-radius:10px;}
 header .navigation .sub_navibox ul li{padding:10px 0;color:#333;border-top: 1px solid #fff;}
 header .navigation .sub_navibox ul li:nth-child(1){border-top:none;}
+header .navigation .sub_navibox ul li a{font-size:12px;}
 
 
 /* 1st Page Style Code */
@@ -47,10 +49,10 @@ header .navigation .sub_navibox ul li:nth-child(1){border-top:none;}
 .pgnum_1 .main_contents .main_txt .typing ul li{display:block;font-size:30px;}
 .pgnum_1 .main_contents .main_txt .typing ul li.on{display: inline-block; animation-name: cursor; animation-duration: 0.5s; animation-iteration-count: infinite; font-size:30px;}
 @keyframes cursor{ 
-      0%{border-right: 1px solid #fff;} 
-      50%{border-right: 1px solid #000;} 
-      100%{border-right: 1px solid #fff;} 
-    }
+  0%{border-right: 1px solid #fff;} 
+  50%{border-right: 1px solid #000;} 
+  100%{border-right: 1px solid #fff;} 
+}
 
 /* 2nd Page Style Code */
 .pgnum_2{width:100%;height:auto;}

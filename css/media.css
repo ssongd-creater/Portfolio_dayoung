@@ -124,13 +124,13 @@
   .pgnum_2 .main2_contents{flex-direction:column;}
   .pgnum_2 .main2_contents .main_img{width:100%;height:35%;margin-top:150px;}
   .pgnum_2 .main2_contents .main_img img{width:300px;}
-  .pgnum_2 .main2_contents .container{width:85%;height:60%;}
+  .pgnum_2 .main2_contents .container{width:85%;height:45%;}
   .pgnum_2 .main2_contents .container .card_wrap{height:80%;}
   .pgnum_2 .main2_contents .detail_profile span{margin-top:20px;}
   .pgnum_2 .main2_contents .detail_profile span h3{font-size:28px;}
   .pgnum_2 .container .card_wrap .main2_fronttxt, .pgnum_2 .container .card_wrap .main2_backtxt{height:85%;margin-top:25px;}
   
-  .pgnum_2 .skill_btn{bottom:5%;}
+  .pgnum_2 .skill_btn{bottom:-30px;}
 
   /* 3rd Page Style Code */
   .pgnum_3 .slide .slide_txt h2{font-size:23px;}
@@ -205,7 +205,8 @@
 
   /* 5th Page Style Code */
   .pgnum_5 .contact{flex-direction: column;height:96%;}
-  .pgnum_5 .contact .contact_icon{margin-top:100px;}
+  .pgnum_5 .contact .contact_icon{margin:120px 0 0 0;}
+  .pgnum_5 .contact .contact_icon i{font-size:100px;}
   .pgnum_5 .contact .contact_board{width:90%;margin-top:20px;}
   .pgnum_5 .contact .contact_board h3{padding:10px 0;}
   .pgnum_5 .contact .contact_board li>span:nth-child(1){display:block;}
@@ -251,19 +252,22 @@
     .pgnum_5 .contact .contact_board ul,
     .pgnum_5 .contact .contact_board .contact_write{width:90%}
     .pgnum_5 .contact .contact_icon{margin-top:120px;}
-    .pgnum_5 .contact .contact_icon i{font-size:180px;}
   }
 
   @media screen and (max-width:570px){
+  header .header_wrap{height:80px;}
   /* 1st Page Style Code */
-  header .navigation .sub_navwrap{display:block;}
+  header .navigation .sub_navwrap{display:block; top:15px;}
   header .header_wrap a{width:50%;}
   header .navigation .logo{width:80%;margin:auto;}
   .navigation .navi{display:none;}
   .pgnum_1 .main_contents .main_txt .typing{width:70%;}
 
   /* 2nd Page Style Code */
-  .pgnum_2 .main2_contents .container{width:100%;}
+  .pgnum_2 .main2_contents{justify-content: center;}
+  .pgnum_2 .main2_contents .main_img{height:250px;margin-top:50px;}
+  .pgnum_2 .main2_contents .main_img img{width:250px;}
+  .pgnum_2 .main2_contents .container{width:100%;height:50%;display:flex;align-items:center;justify-content: center;}
   .pgnum_2 .main2_contents .detail_profile span{margin-top:13px;}
   .pgnum_2 .main2_contents .detail_profile span h3{font-size:19px;}
   .pgnum_2 .main2_contents .detail_profile p{justify-content: center;white-space:pre-wrap;}
@@ -272,11 +276,11 @@
   .pgnum_2 .main2_contents .detail_profile p:nth-of-type(6)>i{display:none;}
 
   .pgnum_2 .main2_contents .container .card_wrap{height:85%;}
-  .pgnum_2 .container .card_wrap .main2_fronttxt{display:flex;flex-direction: column;align-items:center;justify-content:center;padding:10px;margin:0;}
+  .pgnum_2 .container .card_wrap .main2_fronttxt{display:flex;flex-direction: column;align-items:center;justify-content:center;padding:10px;margin:0;height:100%;}
   .pgnum_2 .main2_contents .main2_fronttxt .education{font-size:19px;}
   .pgnum_2 .container .card_wrap .main2_backtxt{display:flex;align-items:center;justify-content: center;margin:0;}
   .pgnum_2 .container .card_wrap .main2_backtxt .main2_txt{width:100%;}
-  .pgnum_2 .skill_btn{width:100px;height:35px;}
+  .pgnum_2 .skill_btn{width:100px;height:35px;bottom:-45px;}
   .pgnum_2 .skill_btn button,
   .pgnum_2 .skill_btn button:hover
   {font-size:12px;}
@@ -315,6 +319,10 @@
   .pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:13px;}
 
   /* 5th Page Style Code */
+  .pgnum_5 .contact{justify-content: center;}
+  .pgnum_5 .contact .contact_icon{margin:130px 0 0 0;}
+  .pgnum_5 .contact .contact_icon i{font-size:80px;}
+  
   .pgnum_5 .contact .contact_board h3{padding:10px 0 0 0;font-size:14px;}
   .pgnum_5 .contact .contact_board li>span{font-size:12px;}
   .pgnum_5 .contact .contact_board li>span:nth-child(1){display:none;}
@@ -327,6 +335,8 @@
 
 @media screen and (max-width:500px){
   /* 2nd Page Style Code */
+  .pgnum_2 .main2_contents .main_img{height:30%;}
+  .pgnum_2 .main2_contents .main_img img{width:250px;}
   .pgnum_2 .main2_contents .detail_profile{margin:0;}
   /* 4rd Page Style Code */
   .pgnum_4 .pgnum_4wrap .ps_aiwrap{width:60%;}
@@ -362,7 +372,6 @@
 
 @media screen and (max-width:400px){
   /* 1st Page Style Code */
-  header .navigation .sub_navwrap{width:80px;}
   .pgnum_1 .main_contents .main_txt .typing{width:100%;}
 
   /* 2nd Page Style Code */
@@ -379,8 +388,8 @@
   /* 4rd Page Style Code */
   .pgnum_4 .pgnum_4wrap .ps_aiwrap{width:80%;}
 
-  /* Sub Navi Stlye Code */
-  header .navigation .sub_navwrap .sub_navi,
-  header .navigation .sub_navibox{width:70px;}
-  header .header_wrap a{font-size:12px;}
+  /* Sub Navi Stlye Code*/
+  header .navigation .sub_navwrap{display:flex;flex-direction: column;align-items: center;}
+  header .navigation .sub_navwrap .sub_navi{width:40px;height:40px;}
+
 }
