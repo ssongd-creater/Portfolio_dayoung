@@ -7,6 +7,7 @@ img {display: block;}
 input,button,textarea {outline: 0;border:0;color:#777;}
 button{outline:0;border:1px solid;}
 h2{font-size:25px;}
+em{font-style: normal;}
 
 /* Main Layout Code */
 body {font-size: 14px;overflow: hidden;background:url(/dy_pofol/img/bgimg7.jpg)no-repeat;background-size:cover;box-sizing: border-box;}
@@ -24,11 +25,13 @@ header .navigation .logo em{font-style:normal;font-size:18px;}
 header .navigation .navi a{padding:0 40px;}
 header .navigation .navi p{font-size:18px;}
 /* Sub Navi Style Code */
-header .navigation .sub_navwrap{width:100px;position:absolute;right:0;bottom:-135%;text-align: center;}
-header .navigation .sub_navwrap .sub_navi{width:100%;height:50px;background:rgba(999,999,999,0.5);border-radius: 10px 10px 0 0;display:flex;justify-content: center;align-items: center;}
-header .navigation .sub_navwrap .sub_navi i{font-size:25px;}
-header .navigation .sub_navibox ul{background:rgba(999,999,999,0.5);border-radius:0 0 10px 10px;}
-header .navigation .sub_navibox ul li{padding:10px 0;}
+header .navigation .sub_navwrap{width:100px;position:fixed;right:35px;top:30px;text-align: center;display:none;}
+header .navigation .sub_navwrap .sub_navi{width:90px;height:50px;background:rgba(999,999,999,0.5);border-radius: 10px;display:flex;justify-content: center;align-items: center;}
+header .navigation .sub_navwrap .sub_navi i{font-size:25px;color:#666;}
+header .navigation .sub_navibox{width:90px;padding-top:10px;display:none;}
+header .navigation .sub_navibox ul{background:rgba(999,999,999,0.5);border-radius:10px;}
+header .navigation .sub_navibox ul li{padding:10px 0;color:#333;border-top: 1px solid #fff;}
+header .navigation .sub_navibox ul li:nth-child(1){border-top:none;}
 
 
 /* 1st Page Style Code */
@@ -57,7 +60,7 @@ header .navigation .sub_navibox ul li{padding:10px 0;}
 
 /* 2nd Page Skill Common Style Code */
 .pgnum_2 .skill_wrap .left_skill,
-.pgnum_2 .skill_wrap .right_skill{width:50%;height:auto;display:flex;flex-direction: column;}
+.pgnum_2 .skill_wrap .right_skill{width:50%;height:auto;display:flex;flex-direction: column;padding:0 0 0 10px;}
 .pgnum_2 .skill_wrap .left_skill>li,
 .pgnum_2 .skill_wrap .right_skill>li{width:90%;text-align: left;display:flex;align-items:center;}
 .pgnum_2 .skill_wrap .left_skill>li i,
@@ -78,7 +81,7 @@ header .navigation .sub_navibox ul li{padding:10px 0;}
 .pgnum_2 .skill_wrap .right_skill .sub_bar.photoshop{width:80%;background:#82b4bb;}
 .pgnum_2 .skill_wrap .right_skill .sub_bar.illustrator{width:70%;background:#7da1d4;}
 
-.pgnum_2 .skill_btn{width:150px;height:40px;position:absolute;bottom:20%;left:50%;transform:translate(-50%,-50%);}
+.pgnum_2 .skill_btn{width:150px;height:40px;position:absolute;bottom:15%;left:50%;transform:translate(-50%,-50%);}
 .pgnum_2 .skill_btn button{width:100%; height:100%;color:#fff;background:cornflowerblue;border-radius:10px;}
 .pgnum_2 .skill_btn button:hover{width:100%; height:100%;color:cornflowerblue;background:#fff;border-radius:10px;}
 
@@ -91,17 +94,18 @@ header .navigation .sub_navibox ul li{padding:10px 0;}
 .pgnum_2 .main2_contents .container .card_wrap.flipped{-webkit-transform: rotateY(180deg);-moz-transform: rotateY(180deg);-o-transform: rotateY(180deg);transform: rotateY(180deg);}
 .pgnum_2 .container .card_wrap .main2_backtxt{-webkit-transform: rotateY( 180deg );-moz-transform: rotateY(180deg);-o-transform: rotateY(180deg);transform: rotateY(180deg)translateY(-50%);}
 
+
 .pgnum_2 .main2_contents .main2_fronttxt h2{text-align: center; font-size:25px;}
 .pgnum_2 .main2_contents .main2_fronttxt .education{font-weight: bold;font-size:20px;padding:10px 0;}
 .pgnum_2 .container .card_wrap .main2_backtxt h2{width:100%;height:20%;padding:10px 0;}
+.pgnum_2 .main2_contents .detail_profile{margin-top:10px;}
 .pgnum_2 .main2_contents .detail_profile p{font-size:16px;display: flex;padding: 5px 0;display:flex;align-items: center;}
 .pgnum_2 .main2_contents .detail_profile p i{font-size:10px;color:#7da1d4; padding-right: 5px;}
-.pgnum_2 .main2_contents .detail_profile em{font-size:14px;font-style:normal;}
-.pgnum_2 .main2_contents .detail_profile span{width:100%;display:flex;justify-content: center;text-align:center;}
-.pgnum_2 .main2_contents .detail_profile span h3{font-size:35px;font-weight: normal;padding:20px 0;margin-top:20px;display:flex;align-items: center;}
+.pgnum_2 .main2_contents .detail_profile span{width:100%;display:flex;justify-content: center;text-align:center;margin-top:20px;}
+.pgnum_2 .main2_contents .detail_profile span h3{font-size:35px;font-weight: normal;display:flex;align-items: center;}
 .pgnum_2 .main2_contents .detail_profile span h3 i{font-size:25px;padding:0 10px;color:#f3c33c;}
 .pgnum_2 .main2_contents .main2_backtxt .main2_txt h2{width:100%;height:20%;text-align: center; font-size:25px;;}
-.pgnum_2 .main2_contents .main2_backtxt .main2_txt .skill_wrap{width:100%;height:60%;;display:flex;justify-content: space-around;font-size:16px;margin-top:45px;}
+.pgnum_2 .main2_contents .main2_backtxt .main2_txt .skill_wrap{width:100%;height:60%;;display:flex;justify-content: space-around;font-size:16px;margin-top:30px;}
 .pgnum_2 .main2_contents .main2_backtxt .main2_txt p{width:100%;height:20%;text-align:center;margin:20px 0;font-size:14px;color:#666;}
 
 /* 3rd Slide Page Style Code */
@@ -119,10 +123,10 @@ header .navigation .sub_navibox ul li{padding:10px 0;}
 
 /* 4rd Slide Page Style Code */
 .pgnum_4 .pgnum_4wrap{width:100%;height:100%;display:flex;align-items:center;justify-content: center;}
-.pgnum_4 .punum_4_mainbox{width:90%;height:65%;display:flex;align-items: center;margin-top:80px;}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap {width:52%;height:100%;display:flex;border-radius:10px;overflow:hidden;justify-content: center;}
+.pgnum_4 .punum_4_mainbox{width:100%;height:66%;display:flex;align-items: center;margin:80px auto 0 auto;}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap {width:40%;height:100%;display:flex;border-radius:10px;overflow:hidden;justify-content: center;align-items:center;margin-left:100px;}
 .pgnum_4 .pgnum_4wrap .ps_aiwrap section{width:100%;height:100%;min-width: 0;;transition:1s;overflow: hidden;}
-.pgnum_4 .pgnum_4wrap .ps_aiwrap section.active{min-width:100%;display:flex;align-items:center;justify-content: center;overflow:hidden;}
+.pgnum_4 .pgnum_4wrap .ps_aiwrap section.active{min-width:100%;display:flex;align-items:center;justify-content: center;overflow:hidden;border-radius: 10px;;}
 .pgnum_4 .pgnum_4wrap .ps_aiwrap section.inner{padding:10px;}
 
 .pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(1){background: center no-repeat url(/dy_pofol/img/app_design_web.png);}
@@ -143,14 +147,14 @@ header .navigation .sub_navibox ul li{padding:10px 0;}
 .pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(16){background: center no-repeat url(/dy_pofol/img/artwork_art_web.png);}
 .pgnum_4 .pgnum_4wrap .ps_aiwrap section img{width:100%;height:auto;padding:10px;}
 
-.pgnum_4 .punum_4_mainbox .ps_aitxt{width:40%;height:auto;display:flex;align-items:center;margin:auto;}
-.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt{width:100%;height:auto;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt{width:60%;height:auto;display:flex;align-items:center;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt{width:60%;height:auto;margin:0 20px 0 150px;}
 .pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt h2{padding:20px 0;}
 .pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:16px; padding:10px 0;}
 .pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt p.more_photo{margin-bottom:15px;}
 .pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt p i{color:cornflowerblue;}
-.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt button{width:150px; height:40px;color:#fff;background:cornflowerblue;border-radius:10px;margin-top:20px;}
-.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt button:hover{width:150px; height:40px;color:cornflowerblue;background:#fff;border-radius:10px;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt button{width:130px; height:40px;color:#fff;background:cornflowerblue;border-radius:10px;margin-top:20px;}
+.pgnum_4 .punum_4_mainbox .ps_aitxt .psai_txt button:hover{width:130px; height:40px;color:cornflowerblue;background:#fff;border-radius:10px;}
 
 
 

@@ -72,7 +72,7 @@
                     <p><i class="fa fa-asterisk"> </i> 이름 : 송다영(宋多英)</p>
                     <p><i class="fa fa-asterisk"> </i> 생년월일 : 1991년 11월 12일</p>
                     <p class="education">EDUCATION</p>
-                    <p><i class="fa fa-asterisk"> </i>극동대학교 산업디자인학과 졸업<em>(과대 및 학회장 활동)</em></p>
+                    <p><i class="fa fa-asterisk"> </i>극동대학교 산업디자인학과 졸업(과대 및 학회장 활동)</p>
                     <p><i class="fa fa-asterisk"> </i>2021.04.22 - 2021.09.03 더조은아카데미</p>
                     <p><i class="fa fa-asterisk"> </i>스마트 웹디자인(UI/UX) 콘텐츠 개발(웹퍼블리셔)_스마트</p>
                     <span>
@@ -87,25 +87,25 @@
                     <h2>MY SKILL</h2>
                     <div class="skill_wrap">
                       <ul class="left_skill">
-                        <li><i class="fa fa-asterisk"> </i> HTML</li>
+                        <li><i class="fa fa-asterisk"> </i> <em>HTML</em></li>
                         <div class="skill_bar">
                           <div class="total_bar">
                             <div class="sub_bar html"></div>
                           </div>
                         </div>
-                        <li><i class="fa fa-asterisk"> </i> CSS</li>
+                        <li><i class="fa fa-asterisk"> </i><em> CSS</em></li>
                         <div class="skill_bar">
                           <div class="total_bar">
                             <div class="sub_bar css"></div>
                           </div>
                         </div>
-                        <li><i class="fa fa-asterisk"> </i> JavaScript</li>
+                        <li><i class="fa fa-asterisk"> </i><em> JavaScript</em></li>
                         <div class="skill_bar">
                           <div class="total_bar">
                             <div class="sub_bar javascript"></div>
                           </div>
                         </div>
-                        <li><i class="fa fa-asterisk"> </i> Jquery</li>
+                        <li><i class="fa fa-asterisk"> </i><em> Jquery</em></li>
                         <div class="skill_bar">
                           <div class="total_bar">
                             <div class="sub_bar jquery"></div>
@@ -113,19 +113,19 @@
                         </div>
                       </ul>
                       <ul class="right_skill">
-                        <li><i class="fa fa-asterisk"> </i> PHP</li>
+                        <li><i class="fa fa-asterisk"> </i><em> PHP</em></li>
                         <div class="skill_bar">
                           <div class="total_bar">
                             <div class="sub_bar php"></div>
                           </div>
                         </div>
-                        <li><i class="fa fa-asterisk"> </i> PhotoShop</li>
+                        <li><i class="fa fa-asterisk"> </i><em> PhotoShop</em></li>
                         <div class="skill_bar">
                           <div class="total_bar">
                             <div class="sub_bar photoshop"></div>
                           </div>
                         </div>
-                        <li><i class="fa fa-asterisk"> </i> Illustrator</li>
+                        <li><i class="fa fa-asterisk"> </i><em> Illustrator</em></li>
                         <div class="skill_bar">
                           <div class="total_bar">
                             <div class="sub_bar illustrator"></div>

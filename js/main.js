@@ -70,6 +70,18 @@ $(document).ready(function () {
     event.stopPropagation();
     return false;
   })
+
+  //Sub Navi Style Code
+  $(".sub_navi").click(function () {
+    $(this).toggleClass('on');
+    $(this).toggleClass('off');
+
+    if ($(this).hasClass('on')) {
+      $(".sub_navibox").slideDown(200);
+    } else {
+      $(".sub_navibox").slideUp(200);
+    }
+  });
 });
 
 //vanilla Js Code

@@ -13,7 +13,7 @@
         <a href="/dy_pofol/#4rd"><p>Contact</p></a>
       </div>
       <div class="sub_navwrap">
-        <div class="sub_navi"><i class="fa fa-bars"></i></div>
+        <div class="sub_navi off"><i class="fa fa-bars"></i></div>
         <div class="sub_navibox">
           <ul>
             <li><a href="/dy_pofol/#1st">I'm</a></li>
