@@ -41,6 +41,11 @@ html.fp-enabled,
     width: 100%;
 }
 
+.fp-tableCell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
 
 .pgnum_3 .slide .fp-tableCell{display:flex;justify-content: space-between;align-items: center;}
 .fp-slidesContainer {
