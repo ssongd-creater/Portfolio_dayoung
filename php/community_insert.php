@@ -31,7 +31,7 @@ file_put_contents($_SERVER["DOCUMENT_ROOT"].'/dy_pofol/data/pf_table.json',json_
 echo"
   <script>
     alert('게시글 입력이 완료되었습니다.');
-    location.href='/dy_pofol/#4rd';
+    location.href='/dy_pofol/#5th';
   </script>
   ";
 ?>

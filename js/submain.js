@@ -11,7 +11,7 @@ $(function () {
     css3: true,
     scrollingSpeed: 700,
     fitToSection: true,
-    // normalScrollElements: ".ps_aiwrap, .board_con, .modal_imgbox",
+    normalScrollElements: ".ps_aiwrap, .board_con, .modal_imgbox",
   });
 
   //background Image effect
@@ -80,6 +80,55 @@ function typing() {
     }
   }
 }
+
+//4rd page Bind Scroll function to mouse wheel event
+$(".ps_aiwrap").on("mousewheel wheel", function (e) {
+  if (e.originalEvent.wheelDelta / 120 > 0) {
+    // scroll up event
+    scrollSection($(this), "prev");
+  } else {
+    // scroll down event
+    scrollSection($(this));
+  }
+});
+$(".ps_aiwrap").on("croll touchmove mousewheel", function (event) {
+  event.preventDefault();
+  event.stopPropagation();
+  return false;
+});
+//mouse wheel scroll event
+// jQuery Next or First / Prev or Last plugin
+$.fn.nextOrFirst = function (selector) {
+  var next = this.next(selector);
+  return next.length ? next : this.prevAll(selector).last();
+};
+$.fn.prevOrLast = function (selector) {
+  var prev = this.prev(selector);
+  return prev.length ? prev : this.nextAll(selector).last();
+};
+// Scroll Functions
+
+function scrollSection(parent, dir) {
+  var active = "active",
+    section = parent.find("." + active);
+  if (dir == "prev") {
+    section.removeClass(active).prevOrLast().addClass(active);
+  } else {
+    section.removeClass(active).nextOrFirst().addClass(active);
+  }
+}
+
+//Sub Navi Style Code
+$(".sub_navi").click(function () {
+  $(this).toggleClass("on");
+  $(this).toggleClass("off");
+
+  if ($(this).hasClass("on")) {
+    $(".sub_navibox").slideDown(200);
+  } else {
+    $(".sub_navibox").slideUp(200);
+  }
+});
 
 //4rd page Button Click Event (Modal)
 const btn_click = document.querySelector(".psai_txt button");

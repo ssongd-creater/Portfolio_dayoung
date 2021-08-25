@@ -19,7 +19,7 @@
           <p>PS & AI</p>
         </a>
         <a href="/dy_pofol/#4rd">
-          <p>PRODUCE</p>
+          <p>Planning</p>
         </a>
         <a href="/dy_pofol/#5th">
           <p>Contact</p>
@@ -32,16 +32,16 @@
             <li><a href="/dy_pofol/#1st">I'm</a></li>
             <li><a href="/dy_pofol/#2nd">Web</a></li>
             <li><a href="/dy_pofol/#3rd">PS & AI</a></li>
-            <li><a href="/dy_pofol/#4rd">PS & AI</a></li>
+            <li><a href="/dy_pofol/#4rd">Planing</a></li>
             <li><a href="/dy_pofol/#5th">Contact</a></li>
           </ul>
         </div>
       </div>
     </div>
 </header>
-<!-- <div class="modal_box">
+<div class="modal_box">
   <div class="modal_con">
     <button class="modal_close"><i class="fa fa-times-circle"></i></button>
     <div class="modal_imgbox"></div>
   </div>
-</div> -->
+</div>
