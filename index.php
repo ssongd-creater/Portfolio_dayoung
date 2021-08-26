@@ -68,86 +68,92 @@
               </div>
             </div>
 
-            <div class="card_wrap">
-              <div class="main2_fronttxt">
-                <h2>MY PROFILE</h2>
-                <div class="detail_profile">
-                  <p><i class="fa fa-asterisk"> </i> 이름 : 송다영(宋多英)</p>
-                  <p><i class="fa fa-asterisk"> </i> 생년월일 : 1991년 11월 12일</p>
-                  <p class="education">EDUCATION</p>
-                  <p><i class="fa fa-asterisk"> </i>극동대학교 산업디자인학과 졸업(과대 및 학회장 활동)</p>
-                  <p><i class="fa fa-asterisk"> </i>2021.04.22 - 2021.09.03 더조은아카데미</p>
-                  <p><i class="fa fa-asterisk"> </i>스마트 웹디자인(UI/UX) 콘텐츠 개발(웹퍼블리셔)_스마트</p>
-                  <span>
-                    <h3><i class="fa fa-lightbulb-o"></i>성실함, 밝은, 노력하는<i class="fa fa-lightbulb-o"></i></h3>
-                  </span>
-                </div>
-              </div>
-
-              <!-- main2_txt card back html -->
-              <div class="main2_backtxt">
-                <div class="main2_txt">
-                  <h2>MY SKILL</h2>
-                  <div class="skill_wrap">
-                    <ul class="left_skill">
-                      <li><i class="fa fa-asterisk"> </i> <em>HTML</em></li>
-                      <div class="skill_bar">
-                        <div class="total_bar">
-                          <div class="sub_bar html"></div>
-                        </div>
-                      </div>
-                      <li><i class="fa fa-asterisk"> </i><em> CSS</em></li>
-                      <div class="skill_bar">
-                        <div class="total_bar">
-                          <div class="sub_bar css"></div>
-                        </div>
-                      </div>
-                      <li><i class="fa fa-asterisk"> </i><em> JavaScript</em></li>
-                      <div class="skill_bar">
-                        <div class="total_bar">
-                          <div class="sub_bar javascript"></div>
-                        </div>
-                      </div>
-                      <li><i class="fa fa-asterisk"> </i><em> Jquery</em></li>
-                      <div class="skill_bar">
-                        <div class="total_bar">
-                          <div class="sub_bar jquery"></div>
-                        </div>
-                      </div>
-                    </ul>
-                    <ul class="right_skill">
-                      <li><i class="fa fa-asterisk"> </i><em> PHP</em></li>
-                      <div class="skill_bar">
-                        <div class="total_bar">
-                          <div class="sub_bar php"></div>
-                        </div>
-                      </div>
-                      <li><i class="fa fa-asterisk"> </i><em> PhotoShop</em></li>
-                      <div class="skill_bar">
-                        <div class="total_bar">
-                          <div class="sub_bar photoshop"></div>
-                        </div>
-                      </div>
-                      <li><i class="fa fa-asterisk"> </i><em> Illustrator</em></li>
-                      <div class="skill_bar">
-                        <div class="total_bar">
-                          <div class="sub_bar illustrator"></div>
-                        </div>
-                      </div>
-                    </ul>
+            <div class="card_btnwrap">
+              <div class="card_wrap">
+                <div class="main2_fronttxt">
+                  <h2>MY PROFILE</h2>
+                  <div class="detail_profile">
+                    <p><i class="fa fa-asterisk"> </i> 이름 : 송다영(宋多英)</p>
+                    <p><i class="fa fa-asterisk"> </i> 생년월일 : 1991년 11월 12일</p>
+                    <p class="education">EDUCATION</p>
+                    <p><i class="fa fa-asterisk"> </i>극동대학교 산업디자인학과 졸업(과대 및 학회장 활동)</p>
+                    <p><i class="fa fa-asterisk"> </i>2021.04.22 - 2021.09.03 더조은아카데미</p>
+                    <p><i class="fa fa-asterisk"> </i>스마트 웹디자인(UI/UX) 콘텐츠 개발(웹퍼블리셔)_스마트</p>
+                    <span>
+                      <h3><i class="fa fa-lightbulb-o"></i>성실함, 밝은, 노력하는<i class="fa fa-lightbulb-o"></i></h3>
+                    </span>
                   </div>
-                  <!-- End of Skill_wrap Html -->
-                  <p>* 워드, 파워포인트, 더존 사용 가능</p>
+                </div>
+
+                <!-- main2_txt card back html -->
+                <div class="main2_backtxt">
+                  <div class="main2_txt">
+                    <h2>MY SKILL</h2>
+                    <div class="skill_wrap">
+                      <ul class="left_skill">
+                        <li><i class="fa fa-asterisk"> </i> <em>HTML</em></li>
+                        <div class="skill_bar">
+                          <div class="total_bar">
+                            <div class="sub_bar html"></div>
+                          </div>
+                        </div>
+                        <li><i class="fa fa-asterisk"> </i><em> CSS</em></li>
+                        <div class="skill_bar">
+                          <div class="total_bar">
+                            <div class="sub_bar css"></div>
+                          </div>
+                        </div>
+                        <li><i class="fa fa-asterisk"> </i><em> JavaScript</em></li>
+                        <div class="skill_bar">
+                          <div class="total_bar">
+                            <div class="sub_bar javascript"></div>
+                          </div>
+                        </div>
+                        <li><i class="fa fa-asterisk"> </i><em> Jquery</em></li>
+                        <div class="skill_bar">
+                          <div class="total_bar">
+                            <div class="sub_bar jquery"></div>
+                          </div>
+                        </div>
+                      </ul>
+                      <ul class="right_skill">
+                        <li><i class="fa fa-asterisk"> </i><em> PHP</em></li>
+                        <div class="skill_bar">
+                          <div class="total_bar">
+                            <div class="sub_bar php"></div>
+                          </div>
+                        </div>
+                        <li><i class="fa fa-asterisk"> </i><em> PhotoShop</em></li>
+                        <div class="skill_bar">
+                          <div class="total_bar">
+                            <div class="sub_bar photoshop"></div>
+                          </div>
+                        </div>
+                        <li><i class="fa fa-asterisk"> </i><em> Illustrator</em></li>
+                        <div class="skill_bar">
+                          <div class="total_bar">
+                            <div class="sub_bar illustrator"></div>
+                          </div>
+                        </div>
+                      </ul>
+                    </div>
+                    <!-- End of Skill_wrap Html -->
+                    <p>* 워드, 파워포인트, 더존 사용 가능</p>
+                  </div>
                 </div>
                 <!-- End of Skill Html -->
               </div>
+              <div class="skill_btn">
+                <button class="skill_flip_btn">View My Skill</button>
+              </div>
             </div>
+            <!-- End of card_wrap -->
+
+
           </div>
         </div>
 
-        <div class="skill_btn">
-          <button class="skill_flip_btn">View My Skill</button>
-        </div>
+
       </div>
     </section>
 
