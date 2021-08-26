@@ -7,7 +7,6 @@
   .iam .main2_contents .detail_profile span h3{font-size:28px;}
   .iam .card_btnwrap{width:85%}
   .iam .main2_contents .main2_backtxt .main2_txt .skill_wrap{margin-top:15px;}
-  .iam .skill_btn{bottom:20%;}
   .iam .card_wrap .main2_fronttxt,
   .iam .card_wrap .main2_backtxt{height:380px;}
 
@@ -84,9 +83,6 @@
   .home .main_txt .typing ul li.on{font-size:25px;}
   
 
-  /* 2nd Page Style Code */
-  .iam .main2_contents .detail_profile span h3{font-size:21px;}
-
   /* 4rd Page Style Code */
   .pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(1),
   .pgnum_4 .pgnum_4wrap .ps_aiwrap section:nth-child(2),
@@ -122,16 +118,22 @@
   .pgnum_1 .main_contents .main_txt .typing{width:50%;margin:auto;}
 
   /* 2nd Page Style Code */
-  .iam .main2_contents{flex-direction:column;}
-  .iam .main2_contents .main_img{width:100%;height:35%;margin-top:150px;}
-  .iam .main2_contents .main_img img{width:300px;}
-  .iam .main2_contents .container{width:85%;height:45%;}
-  .iam .main2_contents .container .card_wrap{height:80%;}
-  .iam .main2_contents .detail_profile span{margin-top:20px;}
-  .iam .main2_contents .detail_profile span h3{font-size:28px;}
-  .iam .container .card_wrap .main2_fronttxt, .iam .container .card_wrap .main2_backtxt{height:85%;margin-top:25px;}
-  
-  .iam .skill_btn{bottom:-30px;}
+  .iam .iam_wrap{flex-direction:column;padding-top:30px;}
+  .iam .main2_contents{width:100%;}
+  .iam .main2_contents .main_img img{width:230px;}
+  .iam .card_btnwrap{width:100%;}
+  .iam .card_wrap{height:300px;width:70%;}
+  .iam .card_wrap .main2_fronttxt,
+  .iam .card_wrap .main2_backtxt{height:90%;padding:10px;}
+  .iam .main2_fronttxt h2,
+  .iam .main2_backtxt .main2_txt h2{font-size:21px;}
+  .iam .detail_profile p{font-size:14px;padding:2px 0;}
+  .iam .detail_profile span h3{font-size:21px;}
+  .iam .main2_fronttxt .education{font-size:18px;padding:8px 0;}
+  .iam .skill_wrap .skill_bar{height:15px;}
+  .iam .skill_btn{width:100px;}
+  .iam .skill_btn button,
+  .iam .skill_btn button:hover{height:35px;font-size:12px;}
 
   /* 3rd Page Style Code */
   .pgnum_3 .slide .slide_txt h2{font-size:23px;}
@@ -223,12 +225,23 @@
     .home .left_wing img, .home .right_wing img{width:100px;}
 
     /* 2nd Page Style Code */
-    .iam .main2_contents .main2_fronttxt .education{font-size:16px;}
-    .iam .main2_contents .detail_profile{margin-top:15px;}
+    .iam .main2_contents .main_img img{}
+    .iam .card_btnwrap{padding:20px 0;}
+    .iam .main2_fronttxt .education{font-size:16px;justify-content:center;}
+    .iam .detail_profile p{text-align: left;}
+    .iam .detail_profile p:nth-of-type(1),
+    .iam .detail_profile p:nth-of-type(2){justify-content:center;}
     .iam .main2_contents .detail_profile span h3{font-size:21px;}
     .iam .skill_wrap .left_skill>li em,
     .iam .skill_wrap .right_skill>li em{font-size:15px;}
-    .iam .main2_contents .main2_backtxt .main2_txt .skill_wrap{margin-top:15px;}
+    .iam .main2_backtxt .main2_txt .skill_wrap{margin-top:15px;}
+    .iam .card_wrap .main2_fronttxt,
+    .iam .card_wrap .main2_backtxt{height:100%;}
+    .iam .main2_fronttxt h2,
+    .iam .main2_backtxt .main2_txt h2{font-size:18px;}
+    .iam .skill_btn{padding-top:20px;}
+    
+    
 
     /* 4rd Page Style Code */
     .pgnum_4 .pgnum_4wrap .ps_aiwrap{height:50%;}
@@ -262,24 +275,19 @@
   /* 2nd Page Style Code */
   .iam .main2_contents{justify-content: center;}
   .iam .main2_contents .main_img{height:250px;margin-top:50px;}
-  .iam .main2_contents .main_img img{width:250px;}
-  .iam .main2_contents .container{width:100%;height:50%;display:flex;align-items:center;justify-content: center;}
-  .iam .main2_contents .detail_profile span{margin-top:13px;}
-  .iam .main2_contents .detail_profile span h3{font-size:19px;}
-  .iam .main2_contents .detail_profile p{justify-content: center;white-space:pre-wrap;}
-  .iam .main2_contents .detail_profile p:nth-of-type(4)>i,
-  .iam .main2_contents .detail_profile p:nth-of-type(5)>i,
-  .iam .main2_contents .detail_profile p:nth-of-type(6)>i{display:none;}
-
+  .iam .detail_profile p{font-size:13px;padding:0}
+  .iam .main2_fronttxt .education{font-size:16px;padding: 20px 0 10px 0;}
   .iam .main2_contents .container .card_wrap{height:85%;}
   .iam .container .card_wrap .main2_fronttxt{display:flex;flex-direction: column;align-items:center;justify-content:center;padding:10px;margin:0;height:100%;}
   .iam .main2_contents .main2_fronttxt .education{font-size:19px;}
+  .iam .detail_profile span h3{font-size:15px;padding:0;}
+  .iam .main2_backtxt .main2_txt .skill_wrap{height:70%;}
   .iam .container .card_wrap .main2_backtxt{display:flex;align-items:center;justify-content: center;margin:0;}
   .iam .container .card_wrap .main2_backtxt .main2_txt{width:100%;}
-  .iam .skill_btn{width:100px;height:35px;bottom:-45px;}
+
+  .iam .skill_btn{width:90px;}
   .iam .skill_btn button,
-  .iam .skill_btn button:hover
-  {font-size:12px;}
+  .iam .skill_btn button:hover{height:32px;font-size:11.5px;}
 
   /* 3rd Page Style Code */
   .pgnum_3 .slide .slide_image img,
@@ -383,10 +391,10 @@
   .pgnum_1 .main_contents .main_txt .typing{width:100%;}
 
   /* 2nd Page Style Code */
-  .iam .main2_contents .main2_fronttxt h2, .iam .main2_contents .main2_backtxt .main2_txt h2{font-size:21px;}
-  .iam .main2_contents .detail_profile p{font-size:13px; padding:3px 0;}
-  .iam .main2_contents .main2_fronttxt .education{font-size:16px;}
-  .iam .main2_contents .detail_profile span h3{font-size:17px;}
+  .iam .main2_contents .main_img img{width:200px;}
+  .iam .card_wrap{width:90%;}
+  .iam .skill_wrap .left_skill>li em,
+  .iam .skill_wrap .right_skill>li em{font-size:14px;}
 
   /* 3rd Page Style Code */
   .pgnum_3 .slide .slide_image img, .pgnum_3 .slide .slide_txt .txt_box{width:80%;}
