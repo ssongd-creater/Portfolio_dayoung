@@ -120,10 +120,10 @@ header .navigation .sub_navibox ul li a{font-size:12px;}
 /* 3rd Slide Page Style Code */
 .web .slide{width:100%;height:auto;}
 .web .vertical_center{width:100%;flex-direction: column;}
-.web .slide .slide_bg{width:90%;margin:auto;height:700px;display:flex;justify-content:space-between;align-items: center;background:#efefef;}
+.web .slide .slide_bg{width:90%;margin:auto;height:520px;display:flex;justify-content:space-between;align-items: center;background:#efefef;}
 .web .slide .slide_image{width:50%;height:auto;}
 .web .slide .slide_image img{width:70%;height:auto;margin:auto;}
-.web .slide .slide_txt{width:50%;height:auto;display: flex;flex-direction: column;justify-content: center;}
+.web .slide .slide_txt{width:50%;height:auto;}
 .web .slide .slide_txt h2{margin-bottom: 15px;;}
 .web .slide .slide_txt p{font-size:16px;padding:5px 0;}
 .web .slide .slide_txt p.star>i{padding:0 2px; color:lightslategray;}
@@ -133,10 +133,10 @@ header .navigation .sub_navibox ul li a{font-size:12px;}
 
 /* 4rd Slide Page Style Code */
 .psai .pgnum_4wrap{width:100%;height:auto;}
-.psai .punum_4_mainbox{width:100%;height:auto;display:flex;align-items: center;justify-content: center;}
-.psai .punum_4_mainbox .ps_aiwrap {width:500px;height:100%;display:flex;border-radius:10px;overflow:hidden;justify-content: center;align-items:center;margin-left:100px;}
+.psai .punum_4_mainbox{width:90%;margin:auto;height:auto;display:flex;align-items: center;justify-content: space-around;}
+.psai .punum_4_mainbox .ps_aiwrap {width:50%;height:auto;display:flex;border-radius:10px;overflow:hidden;justify-content: center;align-items:center;margin:0;}
 .psai .punum_4_mainbox .ps_aitxt{width:50%;height:auto;display:flex;align-items:center;}
-.psai .punum_4_mainbox .ps_aitxt .psai_txt{width:60%;height:auto;margin:0 20px 0 150px;}
+.psai .punum_4_mainbox .ps_aitxt .psai_txt{width:100%;height:auto;padding-left:85px;}
 .psai .punum_4_mainbox .ps_aitxt .psai_txt h2{padding:20px 0;}
 .psai .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:16px; padding:10px 0;}
 .psai .punum_4_mainbox .ps_aitxt .psai_txt p.more_photo{margin-bottom:15px;}

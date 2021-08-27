@@ -70,14 +70,14 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 5%;
+    left: 12%;
     top:56%;
     width: 0;
     border-width: 15px 12px 15px 0;
     border-color: transparent #7da1d4  transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 5%;
+    right: 12%;
     top:56%;
     border-width: 15px 0 15px 12px;
     border-color: transparent transparent transparent #7da1d4;
