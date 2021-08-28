@@ -9,11 +9,9 @@
   .iam .main2_contents .main2_backtxt .main2_txt .skill_wrap{margin-top:15px;}
   .iam .card_wrap .main2_fronttxt,
   .iam .card_wrap .main2_backtxt{height:380px;}
-
 }
 
 @media screen and (max-width:1350px){
-
   /* 2nd Page Style Code */
   .iam .iam_wrap{justify-content: space-between;}
   .iam .main2_contents {width:calc(30% - 10px);}
@@ -49,7 +47,9 @@
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(14),
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(15),
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(16){background-size:400px;}
-   
+
+  /* 5th page Style Code */
+  .contact .contact_board li>span{font-size:12px;}
 }
 
 @media screen and (max-width:1150px){
@@ -88,10 +88,13 @@
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:14px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt button{width:110px;font-size:12px;}
 
+  /* 5th page Style Code */
+  .contact .contact_icon{width:30%;}
+  .contact .contact_icon i{font-size:200px;}
+  .contact .contact_board{width:70%;}
 }
 
 @media screen and (max-width:950px){
- 
   header .navigation .logo{font-size:30px;}
   header .navigation .navi p{font-size:17px;}
    /* 1st Page Style Code */
@@ -119,12 +122,11 @@
   .iam .skill_btn button:hover{height:35px;font-size:12px;}
 
   /* 3rd Page Style Code */
-  .web .slide .slide_bg{flex-direction:column;height:560px;margin-top:30px;}
+  .web .slide .slide_bg{flex-direction:column;height:560px;margin-top:30px;justify-content: center;}
   .web .slide .slide_image{width:55%;}
   .web .slide .slide_image img{width:90%;padding:30px 0;}
   .web .slide .slide_txt{width:100%;height:250px;}
   .web .slide .slide_txt .txt_box{display:flex;flex-direction:column;align-items: center;}
- 
 
   /* 4rd Page Style Code */
   .psai .punum_4_mainbox{flex-direction: column;align-items: center;padding-top:40px;}
@@ -150,31 +152,26 @@
   .psai .punum_4_mainbox .ps_aitxt .psai_txt button{margin-top:30px;}
 
   /* 5th Page Style Code */
-  .pgnum_5 .contact .contact_icon i{font-size:200px;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(1){display:none;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(2){width:25%;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(4){width:25%;}
-  .psai .punum_4_mainbox .ps_aitxt .psai_txt h{padding:0 0 20px 0}
+  .contact{flex-direction:column;margin-top:40px;;}
+  .contact .contact_icon i{font-size:130px;}
+  .contact .contact_board{width:90%;}
+  .contact .contact_board h2{font-size:21px;}
+  .contact .contact_board ul{height:190px;margin:10px auto;}
+  .contact .contact_board h3{padding:10px 0;font-size:15px;}
+  .contact .contact_board .contact_write{margin:10px auto;}
+  .contact .contact_board .board_more button,
+  .contact .contact_board .write_btn button{font-size:12px;}
 }
 
 @media screen and (max-width:850px){
   /* 1st Page Style Code */
   .pgnum_1 .main_contents{flex-direction: column;justify-content:center;}
   .pgnum_1 .left_wing, .pgnum_1 .right_wing{margin:70px 0;}
-  /* 3rd Page Style Code */
-
-  /* 4rd Page Style Code */
-
 
   /* 5th Page Style Code */
-  .pgnum_5 .contact{flex-direction: column;height:96%;}
-  .pgnum_5 .contact .contact_icon{margin:120px 0 0 0;}
-  .pgnum_5 .contact .contact_icon i{font-size:100px;}
-  .pgnum_5 .contact .contact_board{width:90%;margin-top:20px;}
-  .pgnum_5 .contact .contact_board h3{padding:10px 0;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(1){display:block;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(2){width:20%;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(4){width:20%;}
+  .contact .contact_board li>span:nth-child(1){display:none;}
+  .contact .contact_board li>span:nth-child(2){width:25%;}
+  .contact .contact_board li>span:nth-child(4){width:25%;}
 }
 
 @media screen and (max-width:700px){
@@ -200,6 +197,15 @@
   .iam .main2_backtxt .main2_txt h2{font-size:18px;}
   .iam .skill_btn{padding-top:20px;}
 
+  /* 3rd Page Style Code */
+  .web .slide .slide_txt h2{margin-bottom: 5px;}
+  .web .slide .slide_txt p{padding:3px 0;}
+  .web .slide .slide_txt p{font-size:13px;}
+  .web .slide .slide_txt .txt_box{margin-top:20px;}
+  .web .slide .slide_txt .slide_button{width:110px;}
+  .fp-controlArrow.fp-prev{border-width:12px 10px 12px 0;}
+  .fp-controlArrow.fp-next{border-width:12px 0 12px 10px;}
+
   /* 4rd Page Style Code */
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(1),
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(2),
@@ -219,11 +225,19 @@
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(16){height:250px;background-size:250px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt h2{font-size:21px;}
 
-
   /* 5th Page Style Code */
-  .pgnum_5 .contact .contact_board ul,
-  .pgnum_5 .contact .contact_board .contact_write{width:90%}
-  .pgnum_5 .contact .contact_icon{margin-top:120px;}
+  .contact .contact_board li>span:nth-child(2){font-size: 11px;}
+  .contact .contact_board .board_more,
+  .contact .contact_board .write_btn{height:25px;}
+  .contact .contact_board .board_more button,
+  .contact .contact_board .write_btn button{width:90px;font-size:11px;}
+  .contact .contact_board h3{font-size:14px;padding:5px 0;}
+
+  .contact .contact_board .write_box .write_tit span,
+  .contact .contact_board .write_box .write_tit input#write_name,
+  .contact .contact_board .write_box .write_tit input{font-size:11px;}
+  .contact .contact_board .write_box .write_con textarea{font-size:12px;}
+ 
   }
 
   @media screen and (max-width:570px){
@@ -247,25 +261,22 @@
   .iam .skill_btn button,
   .iam .skill_btn button:hover{height:32px;font-size:11.5px;}
 
-  /* 3rd Page Style Code */
-
-
-  /* 4rd Page Style Code */
-
-
   /* 5th Page Style Code */
-  .pgnum_5 .contact{justify-content: center;}
-  .pgnum_5 .contact .contact_icon{margin:130px 0 0 0;}
-  .pgnum_5 .contact .contact_icon i{font-size:80px;}
+  .contact{margin-top:30px;}
+  .contact .contact_icon i{font-size:100px;}
+  .contact .contact_board h3{justify-content:center;margin-top:10px;}
+  .contact .contact_board h2{font-size:18px;}
+  .contact .contact_board ul{width:90%;height:175px;}
+  .contact .contact_board li>span:nth-child(2){width:35%}
+  .contact .contact_board li>span:nth-child(3){width:65%}
+  .contact .contact_board li>span:nth-child(4){display:none;}
+  .contact .contact_board .contact_write{width:90%;}
+  .contact .contact_board .write_box .write_tit{flex-wrap: wrap;}
+  .contact .contact_board .write_box .write_tit span{width:30%; border-radius:5px 0 0 5px;margin-top:5px}
+  .contact .contact_board .write_box .write_tit input#write_name{width:calc(70% - 10px);border-radius:0 5px 5px 0;}
+  .contact .contact_board .write_box .write_tit input{margin-top:5px;width:calc(70% - 10px);border-radius:0 5px 5px 0;}
   
-  .pgnum_5 .contact .contact_board h3{padding:10px 0 0 0;font-size:14px;}
-  .pgnum_5 .contact .contact_board li>span{font-size:12px;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(1){display:none;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(2){width:20%;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(3){width:55%;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(4){width:25%;}
-  .pgnum_5 .contact .contact_board .write_box .write_con textarea{font-size:12px;}
-
+  
 }
 
 @media screen and (max-width:500px){
@@ -284,32 +295,25 @@
   .iam .main2_contents .main_img img{width:250px;}
   .iam .main2_contents .detail_profile{margin:0;}
 
+  /* 3rd Page Style Code */
+  .web .slide .slide_image{width:60%;}
+  .web .slide .slide_image img{width:100%;}
+  .web .slide .slide_txt h2{font-size:20px;}
+  .web .slide .slide_txt p{font-size:12px;}
+  .web .slide .slide_txt .slide_button{width:100px;margin-top:25px;}
   /* 4rd Page Style Code */
   .psai .punum_4_mainbox .ps_aiwrap{width:75%;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p{text-align: initial;padding:7px 0;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p.more_photo{margin:0;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt button{width:95px;height:35px;font-size:11px;}
+  .web .slide .slide_txt .slide_button button{font-size:12px;}
 
   /* 5th Page Style Code */
-  .pgnum_5 .contact .contact_icon{margin:120px auto 0 120px;}
-  .pgnum_5 .contact .contact_icon i{font-size:80px;}
-  .pgnum_5 .contact .contact_board{height:75%;}
-  .pgnum_5 .contact .contact_board h2{font-size:21px;}
-  .pgnum_5 .contact .contact_icon{margin:120px auto 0 auto;}
-  .pgnum_5 .contact .contact_board ul{height:190px;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(2){width:30%;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(3){width:70%;}
-  .pgnum_5 .contact .contact_board li>span:nth-child(4){display:none;}
-  .pgnum_5 .contact .contact_board .board_more button,
-  .pgnum_5 .contact .contact_board .board_more button:hover,
-  .pgnum_5 .contact .contact_board .write_btn button,
-  .pgnum_5 .contact .contact_board .write_btn button:hover{width:85px;font-size:12px;}
-
-  .pgnum_5 .contact .contact_board .write_box .write_tit{flex-wrap: wrap;}
-  .pgnum_5 .contact .contact_board .write_box .write_tit span{width:30%;border-radius:5px 0 0 5px}
-  .pgnum_5 .contact .contact_board .write_box .write_tit input#write_name{width:calc(70% - 10px);border-radius:0 5px 5px 0;}
-  .pgnum_5 .contact .contact_board .write_box .write_tit span{width:30%;margin-top:5px;}
-  .pgnum_5 .contact .contact_board .write_box .write_tit input{width:calc(70% - 10px);border-radius: 5px 0 0 5px;margin-top:5px;}
+  .contact {margin-top:40px;}
+  .contact .contact_icon i{font-size:80px;}
+  .contact .contact_board{margin-top:15px;}
+  .contact .contact_board ul{margin:5px auto 10px auto;}
+  .contact .contact_board h3{font-size:13px;margin-top:10px;}
 }
 
 @media screen and (max-width:400px){
@@ -325,10 +329,19 @@
   .iam .skill_wrap .right_skill>li em{font-size:14px;}
 
   /* 3rd Page Style Code */
+  .web .slide .slide_txt{padding:0 10px;text-align:center;}
 
   /* 4rd Page Style Code */
   .psai .punum_4_mainbox .ps_aiwrap{width:90%;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:13px;}
-  
+
+  /* 5th Page Style Code */
+  header .navigation .sub_navwrap .sub_navi{width:35px;height:35px;}
+  .contact .contact_board ul{width:95%;}
+  .contact .contact_board li>span{font-size:10px;}
+  .contact .contact_board li>span:nth-child(1){display:block;width:20%;}
+  .contact .contact_board li>span:nth-child(2){display:none;}
+  .contact .contact_board li>span:nth-child(3){width:80%;}
+  .contact .contact_board .contact_write{width:95%;}  
 
 }

@@ -389,8 +389,8 @@
         <div class="vertical_center"></div>
       </div>
     </section>
-    <section class="contact section" data-anchor="5th">
-      <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/pages/community_form.php"; ?>
+
+    <?php include $_SERVER["DOCUMENT_ROOT"]."/dy_pofol/pages/community_form.php"; ?>
     </section>
 
 

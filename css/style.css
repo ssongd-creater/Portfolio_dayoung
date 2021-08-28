@@ -168,7 +168,7 @@ header .navigation .sub_navibox ul li a{font-size:12px;}
 
 
 /* 5th Slide Page Style Code */
- .contact{width:100%;height:auto;display:flex;justify-content:space-between;align-items: center;}
+ .contact{width:90%;margin:auto;margin-top:60px;height:auto;display:flex;justify-content:space-between;align-items: center;}
  .contact .contact_icon{width:40%;height:auto;margin:auto;display:flex;justify-content: center;}
  .contact .contact_icon i{font-size:250px;color:#efefef;}
  .contact .contact_board{width:60%;height:auto;}
