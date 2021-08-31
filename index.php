@@ -173,6 +173,7 @@
                   <p>프로젝트명 : My Schedule</p>
                   <p>사용 언어 : HTML / CSS / JavaScript / jQuery / PHP </p>
                   <p>라이브러리 : easypiechart / lightslider</p>
+                  <p>인증코드 : " 1440 "</p>
                   <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
                       class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
@@ -237,7 +238,8 @@
                   <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
                       class="fa fa-star-half-empty"></i><i class="fa fa-star-o"></i></p>
                   <div class="slide_button">
-                    <a href="/lbcamp" target="_blank"><button>View Site</button></a>
+                    <a href="https://www.dabipyeung.com/APIProject/dayeung/lbcamp" target="_blank"><button>View
+                        Site</button></a>
                   </div>
                 </div>
               </div>
@@ -273,7 +275,7 @@
                   <h2>Web Portfolio</h2>
                   <p>프로젝트명 : Beksul Renewal</p>
                   <p>사용 언어 : HTML / CSS / jQuery</p>
-                  <p>라이브러리 : 사용안함</p>
+                  <p>라이브러리 : lightslider</p>
                   <p class="star">이해도 : <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
                       class="fa fa-star"></i><i class="fa fa-star"></i></p>
                   <div class="slide_button">
