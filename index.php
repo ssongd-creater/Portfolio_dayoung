@@ -386,9 +386,64 @@
       </div>
       <!-- End of Center -->
     </section>
-    <section class="produce section" data-anchor="4rd">
+    <section class="planning section" data-anchor="4rd">
       <div class="center">
-        <div class="vertical_center"></div>
+        <div class="vertical_center">
+          <div class="plan_txt">
+            <h2>제목 혹은 + 버튼을 누르면 간략한 이미지가 소개됩니다.</h2>
+          </div>
+          <div id="wrapper">
+            <div class="container">
+              <ul class="accordion">
+                <li class="item">
+                  <h2 class="item_title">시장조사 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">페르소나 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning1.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">설문조사 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning2.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">심화 인터뷰 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning3.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">사이트 디자인 분석 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning2.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">SWOT 분석 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning2.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">플로우 차트 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning2.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">스토리 보드 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning2.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">스타일 가이드 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning2.png" alt="" class="item_img">
+                </li>
+                <li class="item">
+                  <h2 class="item_title">디자인 시안 <span class="accIcon"></span></h2>
+                  <img src="/dy_pofol/img/planning/planning2.png" alt="" class="item_img show">
+                </li>
+              </ul>
+            </div>
+            <!-- End of Accordion -->
+            <div class="plan_btn">
+              <a href="#"><button><i class="fa fa-folder-open-o"></i> PDF Download</button></a>
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 
