@@ -9,6 +9,9 @@
   .iam .main2_contents .main2_backtxt .main2_txt .skill_wrap{margin-top:15px;}
   .iam .card_wrap .main2_fronttxt,
   .iam .card_wrap .main2_backtxt{height:380px;}
+
+  /* Planning Page Style Code */
+  .container .accordion{width:100%;}
 }
 
 @media screen and (max-width:1350px){
@@ -47,6 +50,12 @@
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(14),
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(15),
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(16){background-size:400px;}
+
+  /* Planning Page Style Code */
+  .planning .vertical_center .plan_txt h2{font-size:19px;}
+  .container .accordion{justify-content: center;}
+  .container .accordion .item_title{padding:15px;}
+  .accordion .item .item_img.show{width:400px;}
 
   /* 5th page Style Code */
   .contact .contact_board li>span{font-size:12px;}
@@ -87,6 +96,13 @@
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(16){background-size:350px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:14px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt button{width:110px;font-size:12px;}
+
+   /* Planning Page Style Code */
+   .container .accordion .item_title{display:flex;justify-content:space-between;align-items:center;padding:10px 5px;font-size:14px;}
+  .item_title:before,
+  .item_title:hover::after,
+  .item_titleActive:after,
+  .container .accordion .item_title{height:250px;}
 
   /* 5th page Style Code */
   .contact .contact_icon{width:30%;}
@@ -151,6 +167,9 @@
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(16){height:300px;background-size:300px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt button{margin-top:30px;}
 
+  /* Planning Page Style Code */
+  .accordion .item .item_img.show{width:330px;}
+
   /* 5th Page Style Code */
   .contact{flex-direction:column;margin-top:40px;;}
   .contact .contact_icon i{font-size:130px;}
@@ -172,6 +191,17 @@
   .contact .contact_board li>span:nth-child(1){display:none;}
   .contact .contact_board li>span:nth-child(2){width:25%;}
   .contact .contact_board li>span:nth-child(4){width:25%;}
+
+  /* Planning Page Style Code */
+  .planning .vertical_center .plan_txt h2{font-size:17px;}
+  .accordion .item .item_img.show{width:210px;}
+  .item_title:before,
+  .item_title:hover::after,
+  .item_titleActive:after,
+  .container .accordion .item_title{height:210px;letter-spacing: 0.1px;font-size: 13px;}
+  .planning .plan_btn{justify-content:center;}
+  .planning .plan_btn button{width:80px;height:40px;margin-top:30px;font-size:11px;}
+  
 }
 
 @media screen and (max-width:700px){
@@ -225,6 +255,14 @@
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(16){height:250px;background-size:250px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt h2{font-size:21px;}
 
+  /* Planning Page Style Code */
+  .container .accordion .item:nth-child(2),
+  .container .accordion .item:nth-child(4),
+  .container .accordion .item:nth-child(6){display:none;}
+  .accIcon:before{height:15px;}
+  .accIcon:after{width:15px;}
+  .planning .plan_btn button{width:150px;margin-top:50px;}
+
   /* 5th Page Style Code */
   .contact .contact_board li>span:nth-child(2){font-size: 11px;}
   .contact .contact_board .board_more,
@@ -260,6 +298,12 @@
   .iam .skill_btn{width:90px;}
   .iam .skill_btn button,
   .iam .skill_btn button:hover{height:32px;font-size:11.5px;}
+
+  /* Planning Page Style Code */
+  .planning .vertical_center .plan_txt h2{font-size:15px;}
+  .container .accordion .item:nth-child(5){display:none;}
+  .container .accordion .item_title{padding:10px 3px;}
+  .planning .plan_btn button{width:125px;}
 
   /* 5th Page Style Code */
   .contact{margin-top:30px;}
@@ -307,6 +351,11 @@
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p.more_photo{margin:0;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt button{width:95px;height:35px;font-size:11px;}
   .web .slide .slide_txt .slide_button button{font-size:12px;}
+
+  /* Planning Page Style Code */
+  .planning .vertical_center .plan_txt,
+  #wrapper{display:none;}
+
 
   /* 5th Page Style Code */
   .contact {margin-top:40px;}
