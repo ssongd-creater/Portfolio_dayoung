@@ -10,6 +10,7 @@ $(function () {
     sectionSelector: ".section",
     css3: true,
     scrollingSpeed: 700,
+    responsiveWidth: 700,
     fitToSection: true,
     normalScrollElements: ".ps_aiwrap, .board_con, .modal_imgbox",
   });

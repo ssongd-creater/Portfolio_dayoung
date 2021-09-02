@@ -353,6 +353,7 @@
   .web .slide .slide_txt .slide_button button{font-size:12px;}
 
   /* Planning Page Style Code */
+  .sub_wrapper{display:block;}
   .planning .vertical_center .plan_txt,
   #wrapper{display:none;}
 
@@ -383,6 +384,10 @@
   /* 4rd Page Style Code */
   .psai .punum_4_mainbox .ps_aiwrap{width:90%;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:13px;}
+
+   /* Planning Page Style Code */
+  .sub_wrapper .sub_imgwrap span{width:210px;}
+  .sub_wrapper .sub_imgwrap p i{padding:15px 0;}
 
   /* 5th Page Style Code */
   header .navigation .sub_navwrap .sub_navi{width:35px;height:35px;}

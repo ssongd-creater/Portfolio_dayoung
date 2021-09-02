@@ -206,12 +206,18 @@ header .navigation .sub_navibox ul li a{font-size:12px;}
 .planning .plan_btn button{width:100px;height:45px;background:cornflowerblue; color:#fff;margin-top:20px;}
 
 /* Sub planning Style Code */
-.sub_wrapper{width:100%;height:auto;}
+.sub_wrapper{width:100%;height:auto; display:none;}
+.sub_wrapper .plnning_txt{width:90%;margin:auto;display:flex;justify-content:center;text-align: center;margin-top:100px;}
+.sub_wrapper .plnning_txt p{font-size:18px; color:#fff;}
+.sub_wrapper .plnning_txt span{font-size:14px; color:#fff;}
+
+.sub_wrapper .sub_imgwrap span{width:280px;height:2px;background-color:steelblue;opacity:0.6;margin-bottom: 30px;;}
+.sub_wrapper .sub_imgwrap p i{font-size:20px; padding: 20px 0;}
+
 .sub_wrapper .sub_imgwrap{width:90%;margin:auto;height:auto;display:flex;justify-content:center;align-items: center;flex-direction: column;}
 .sub_wrapper .sub_imgwrap p{font-size:18px;color:#fff;padding:10px 0;}
-.sub_wrapper .sub_imgwrap img{width:100%;height:auto;margin-bottom: 50px;;}
-
-
+.sub_wrapper .sub_imgwrap img{width:100%;height:auto;}
+.sub_wrapper .sub_imgwrap:nth-child(2){margin-top:30px;}
 
 
 /* 5th Slide Page Style Code */
