@@ -96,6 +96,7 @@
   .psai .pgnum_4wrap .ps_aiwrap section:nth-child(16){background-size:350px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p{font-size:14px;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt button{width:110px;font-size:12px;}
+  .psai .punum_4_mainbox .ps_aitxt .psai_txt button:hover{width:110px;font-size:12px;}
 
    /* Planning Page Style Code */
    .container .accordion .item_title{display:flex;justify-content:space-between;align-items:center;padding:10px 5px;font-size:14px;}
@@ -270,6 +271,7 @@
   .contact .contact_board .board_more button,
   .contact .contact_board .write_btn button{width:90px;font-size:11px;}
   .contact .contact_board h3{font-size:14px;padding:5px 0;}
+  .contact .contact_board .write_btn button{margin-bottom: 50px;}
 
   .contact .contact_board .write_box .write_tit span,
   .contact .contact_board .write_box .write_tit input#write_name,
@@ -349,7 +351,8 @@
   .psai .punum_4_mainbox .ps_aiwrap{width:75%;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p{text-align: initial;padding:7px 0;}
   .psai .punum_4_mainbox .ps_aitxt .psai_txt p.more_photo{margin:0;}
-  .psai .punum_4_mainbox .ps_aitxt .psai_txt button{width:95px;height:35px;font-size:11px;}
+  .psai .punum_4_mainbox .ps_aitxt .psai_txt button,
+  .psai .punum_4_mainbox .ps_aitxt .psai_txt button:hover{width:95px;height:35px;font-size:11px;}
   .web .slide .slide_txt .slide_button button{font-size:12px;}
 
   /* Planning Page Style Code */

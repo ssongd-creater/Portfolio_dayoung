@@ -390,7 +390,9 @@
       <div class="center">
         <div class="vertical_center">
           <div class="plan_txt">
-            <h2>제목 혹은 + 버튼을 누르면 간략한 이미지가 소개됩니다.</h2>
+            <h2>제목 혹은 + 버튼을 누르면 간략한 이미지가 소개됩니다.<br>
+              <p>디테일한 내용은 pdf를 받아 확인해주세요 :-)</p>
+            </h2>
           </div>
           <div id="wrapper">
             <div class="container">
@@ -453,6 +455,7 @@
             </div>
             <div class="sub_imgwrap">
               <span></span>
+              <p>보다 많은 사진과 정보는 Web에서 확인해주세요 :-)</p>
               <img src="/dy_pofol/img/planning/planning2.png" alt="">
             </div>
             <div class="sub_imgwrap">

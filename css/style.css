@@ -168,7 +168,9 @@ header .navigation .sub_navibox ul li a{font-size:12px;}
 
 /* Planning Style Code */
 .planning .vertical_center{flex-direction: column;}
+.planning .vertical_center .plan_txt{text-align: center;;}
 .planning .vertical_center .plan_txt h2{font-size:21px;color:#fff;}
+.planning .vertical_center .plan_txt h2 p{font-size:14px;padding:5px 0;font-weight: 300;}
 #wrapper {margin:50px auto;;width:100%;}
 .container { width: 100%;position: relative;}
 .container:before {content:'';position: absolute;width: calc(100% - 30px);height: 100%;margin: 0;left: 15px;background-color: transparent;top: 0px;_box-shadow: 0px 20px 40px #52616b;opacity: 0.4;  z-index: -1;transition: ease-in-out 0.6s all;}
@@ -212,10 +214,10 @@ header .navigation .sub_navibox ul li a{font-size:12px;}
 .sub_wrapper .plnning_txt span{font-size:14px; color:#fff;}
 
 .sub_wrapper .sub_imgwrap span{width:280px;height:2px;background-color:steelblue;opacity:0.6;margin-bottom: 30px;;}
-.sub_wrapper .sub_imgwrap p i{font-size:20px; padding: 20px 0;}
 
 .sub_wrapper .sub_imgwrap{width:90%;margin:auto;height:auto;display:flex;justify-content:center;align-items: center;flex-direction: column;}
-.sub_wrapper .sub_imgwrap p{font-size:18px;color:#fff;padding:10px 0;}
+.sub_wrapper .sub_imgwrap p{font-size:14px;color:#fff;padding-bottom:15px;}
+.sub_wrapper .sub_imgwrap p i{font-size:20px; padding: 20px 0;}
 .sub_wrapper .sub_imgwrap img{width:100%;height:auto;}
 .sub_wrapper .sub_imgwrap:nth-child(2){margin-top:30px;}
 
